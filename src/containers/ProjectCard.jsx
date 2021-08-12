@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
 import colors from "./Colors.json"
-
+import MultiColorProgressBar from "./LanguageBar/MultiColorProgressBar";
 
 const ProjectCard = ({ value }) => {
   const {
@@ -59,6 +59,8 @@ const CardButtons = ({ svn_url }) => {
 
 const Language = ({ languages_url, repo_url }) => {
   const [data, setData] = useState([]);
+  const [readings, setReading] = useState([
+  ])
 
   const handleRequest = useCallback(async () => {
     try {
@@ -84,18 +86,21 @@ const Language = ({ languages_url, repo_url }) => {
     <div className="pb-3" style={{display: "flex", justifyContent: "center", alignContent: "center", flexWrap: "wrap"}}>
       {array.length
         ? array.map((language) => (
+            
             <a
               key={language} 
               className="badge badge-light card-link"
               style={{backgroundColor: colors[language], margin: "5px"}}
               href={repo_url + `/search?l=${language}`}
               target=" _blank"
+              {... readings.push({"name": language, "value": Math.trunc((data[language] / total_count) * 1000) / 10, "color": colors[language]})}
             >
               {language}:{" "}
               {Math.trunc((data[language] / total_count) * 1000) / 10} %
             </a>
           ))
         : "code yet to be deployed."}
+        <MultiColorProgressBar readings={readings}/>
     </div>
   );
 };

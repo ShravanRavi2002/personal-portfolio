@@ -22,7 +22,7 @@ export default function CompanyBubble(props) {
           }}
         >
           <img
-            src={`./logos/${props.name}.png`}
+            src={props.image}
             alt=""
             style={{
               maxWidth: 50,
@@ -34,9 +34,9 @@ export default function CompanyBubble(props) {
           <p
             style={{
               color: props.textColor,
-              fontSize: 14,
+              fontSize: 16,
               marginBottom: 6,
-              fontWeight: 1000,
+              fontWeight: "bold",
               maxWidth: 150,
               textAlign: "center",
             }}
