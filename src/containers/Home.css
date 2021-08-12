@@ -1,0 +1,148 @@
+.profile-pic {
+    max-width: 15%;
+    margin: 12px ;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    height: max-content
+  }
+
+  .disappearingAct {
+    height: "max-content";
+    width: "max-content"
+  }
+
+  .profile {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: "50px";
+    text-align: center;
+    width: max-content + 15px;
+    height: max-content + 15px;
+  }
+
+  .social_media_links {
+    align-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 30px;
+ } 
+
+ .name_small {
+    padding-left: -10px;
+    width: 100%;
+    font-size: 150%;
+    padding: 0;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    color: white;
+ }
+
+ .name {
+    width: 100%;
+    font-size: 500%;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.description {
+  width: 100%;
+  font-size: 200px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+  color: white;
+}
+   
+.linkedin_icon {
+  background-color: #060b26;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.linkedin_icon:hover {
+    background-color: #0077B5;
+    cursor: pointer;
+} 
+
+.fb_icon {
+  background-color: #060b26;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 43px;
+}
+
+.fb_icon:hover {
+    background: #4867AA;
+    cursor: pointer;
+} 
+
+
+.insta_icon {
+  background-color: #060b26;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 44px;
+}
+
+.insta_icon:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  cursor: pointer;
+} 
+
+.gmail_icon {
+  background-color: #060b26;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 43px;
+}
+
+.gmail_icon:hover {
+  background-color: #37A8FB;
+  cursor: pointer;
+}
+
+
+
+  .git_icon {
+    background-color: #060b26;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+  }
+
+  .git_icon:hover {
+    background-color: #8130A3;
+    cursor: pointer;
+  } 
+
+  @media (max-width: 1000px) {
+    .disappearingAct{
+      width: 0;
+      height: 0;
+    }
+  }

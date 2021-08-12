@@ -1,0 +1,67 @@
+{
+	"homepage": "http://shravanravi2002.github.io",
+	"name": "personal-portfolio",
+	"version": "1.0.0",
+	"description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+	"main": "index.js",
+	"repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
+	"author": "Hanzla Tauqeer",
+	"license": "MIT",
+	"dependencies": {
+		"@apollo/client": "^3.3.21",
+		"@chakra-ui/react": "^1.6.5",
+		"@emotion/react": "^11.4.1",
+		"@emotion/styled": "^11.3.0",
+		"@fortawesome/fontawesome": "^1.1.8",
+		"@fortawesome/fontawesome-free-brands": "^5.0.13",
+		"axios": "^0.21.1",
+		"bootstrap": "^5.0.2",
+		"classnames": "^2.3.1",
+		"colorthief": "^2.3.2",
+		"framer-motion": "^4.1.17",
+		"graphql": "^15.5.1",
+		"headroom.js": "^0.12.0",
+		"moment": "^2.29.1",
+		"nouislider": "^15.2.0",
+		"react": "^17.0.2",
+		"react-bootstrap": "^1.6.1",
+		"react-bubble-ui": "^1.1.1",
+		"react-clickable": "^1.1.0",
+		"react-code-blocks": "^0.0.9-0",
+		"react-datetime": "^3.0.4",
+		"react-dom": "^17.0.2",
+		"react-easy-emoji": "^1.5.0",
+		"react-headroom": "^3.1.1",
+		"react-icons": "^4.2.0",
+		"react-loading-skeleton": "^2.2.0",
+		"react-lottie": "^1.2.3",
+		"react-palette": "^1.0.2",
+		"react-reveal": "^1.2.2",
+		"react-router": "^5.2.0",
+		"react-scripts": "^4.0.3",
+		"react-simple-typewriter": "^3.0.0",
+		"react-typist": "^2.0.5",
+		"reactstrap": "^8.9.0",
+		"sass": "^1.37.5"
+	},
+	"scripts": {
+		"predeploy": "npm run build",
+		"deplot": "gh-pages -d build",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

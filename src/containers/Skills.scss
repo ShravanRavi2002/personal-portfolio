@@ -1,0 +1,28 @@
+.icon {
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    // border: 20px solid black;
+    box-shadow: 2px 2px 2px  rgba(0,0,0,0.6);
+    margin: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    :hover {
+        padding: 10px;
+        border-radius: 100%;
+        // border: 20px solid black;
+        box-shadow: 2px 2px 2px  rgba(0,0,0,0.6);
+        margin: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        font-size: 6em;
+    }
+}
+
+.bubbleContainer {
+    display: flex;
+    justify-content: center;
+    margin: center;
+}
