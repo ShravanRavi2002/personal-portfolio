@@ -56,11 +56,11 @@ const Project = ({ heading, username, length, specfic }) => {
   }, [fetchRepos]);
 
   var leftCol = [1, 2]
-  var rightCol = [0]
+  var rightCol = [0, 3]
   return (
       <Container className="">
-        <div className="d-flex p-4">
-                    <div>
+        <div className="d-flex p-4" >
+            <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                         <i className="ni ni-archive-2 text-info" />
                         </div>
@@ -69,45 +69,45 @@ const Project = ({ heading, username, length, specfic }) => {
                         <h4 className="display-3 text-info">Hackathon Projects</h4>
                     </div>
                 </div>
-            <div style={{display: "flex"}}>
-
-            <Col lg={7}>
-                    {projectsArray.length
-                      ? projectsArray.map((project, index) => (
-                        leftCol.includes(index) ?
-                          <ProjectCard
-                            key={`project-card-${index}`}
-                            id={`project-card-${index}`}
-                            value={project}
-                          /> : null
-                          )) 
-                      : dummyProjectsArr.map((project, index) => (
-                          <ProjectCard
-                            key={`dummy-${index}`}
-                            id={`dummy-${index}`}
-                            value={project}
-                          />
-                        ))}
-                  </Col>
-                  <Col lg={7}>
-                    {projectsArray.length
-                      ? projectsArray.map((project, index) => (
-                        rightCol.includes(index) ?
-                          <ProjectCard
-                            key={`project-card-${index}`}
-                            id={`project-card-${index}`}
-                            value={project}
-                          /> : null
-                          )) 
-                      : dummyProjectsArr.map((project, index) => (
-                          <ProjectCard
-                            key={`dummy-${index}`}
-                            id={`dummy-${index}`}
-                            value={project}
-                          />
-                        ))}
-                  </Col>
-              </div>
+            <div style={{display: "flex", justifyContent: "center"}}>
+              <Col lg={7}>
+                        {projectsArray.length
+                          ? projectsArray.map((project, index) => (
+                            leftCol.includes(index) ?
+                              <ProjectCard
+                                key={`project-card-${index}`}
+                                id={`project-card-${index}`}
+                                value={project}
+                              /> : null
+                              )) 
+                          : dummyProjectsArr.map((project, index) => (
+                              <ProjectCard
+                                key={`dummy-${index}`}
+                                id={`dummy-${index}`}
+                                value={project}
+                              />
+                            ))}
+                      </Col>
+                      <Col lg={7}>
+                        {projectsArray.length
+                          ? projectsArray.map((project, index) => (
+                            rightCol.includes(index) ?
+                              <ProjectCard
+                                key={`project-card-${index}`}
+                                id={`project-card-${index}`}
+                                value={project}
+                              /> : null
+                              )) 
+                          : dummyProjectsArr.map((project, index) => (
+                              <ProjectCard
+                                key={`dummy-${index}`}
+                                id={`dummy-${index}`}
+                                value={project}
+                              />
+                            ))}
+                      </Col>
+            
+        </div>
         
       </Container>
   );
