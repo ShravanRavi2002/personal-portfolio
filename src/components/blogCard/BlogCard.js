@@ -1,5 +1,22 @@
 import React from "react";
 import "./BlogCard.scss";
+import {blogSection} from "../../portfolio";
+
+function BoldedText( text, shouldBeBold, isDark ) {
+  const textArray = text.split(shouldBeBold);
+  return (
+    <span className={isDark ? "small-dark" : "small"}>
+      {textArray.map((item, index) => (
+        <>
+          {item}
+          {index !== textArray.length - 1 && (
+            <b>{shouldBeBold}</b>
+          )}
+        </>
+      ))}
+    </span>
+);
+}
 
 export default function BlogCard({blog, isDark}) {
   function openUrlInNewTab(url) {
@@ -18,11 +35,12 @@ export default function BlogCard({blog, isDark}) {
           }
           href="#blog"
         >
-          <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
-            {blog.title}
-          </h3>
-          <p className={isDark ? "small-dark small" : "small"}>
-            {blog.description}
+            <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
+              {blog.title}
+            </h3>
+          
+          <p className={isDark ? "small-dark" : "small"}>
+            {BoldedText(blog.description, blogSection.name, isDark)}
           </p>
           <div className="go-corner">
             <div className="go-arrow">→</div>
