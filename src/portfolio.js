@@ -12,11 +12,13 @@ import freetail from "./assets/img/icons/common/Freetail.png"
 import chartfleau from "./assets/img/icons/common/chartfleau.png"
 import GTP from "./assets/img/icons/common/GTP.png"
 import openPHR from "./assets/img/icons/common/openphr.png"
+import CHASE from "./assets/papers/IEEE_CHASE.pdf"
+
 export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 	resumeLink: "",
 };
 
@@ -68,15 +70,16 @@ export const educationInfo = {
 
 export const blogSection = {
 	title: "Publications",
+	name: "Shravan Ravi",
 	subtitle:
 	  "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   
 	blogs: [
 	  {
-		url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-		title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+		url: CHASE,
+		title: "Crowdsourcing Personalized Medicine: Applying Machine Learning to Unstructured Social Media Data to Improve Breast Cancer Patient Outcomes",
 		description:
-		  "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+		  `Gregory Falco, Shravan Ravi, Modadeoluwa Ogunmuyiwa, Caleb Li`
 	  },
 	  {
 		url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -158,7 +161,11 @@ export const experience = [
 		company: "OpenPHR",
 		companylogo: openPHR,
 		date: "June 2021 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Researched and developed deep learning algorithms to empower patients to be well-informed of potential treatment options for non-profit under the mentorship of Johns Hopkins professor and Facebook strategic investment analyst",
+		descBullets: [
+			"Developed proprietary sentiment analysis algorithm and k-means clustering models to cohort breast cancer patient social media data",
+			"Co-authored paper outlining preliminary algorithm efficacy - Submitted to IEEE/ACM Conference on Connected Health Applications, Systems, and Engineering Technologies (CHASE) 2021 - and co-authoring Emerson Health Collective research grant proposal",
+		],
 		link: "https://www.openphr.org/"
 	},
 	
@@ -169,7 +176,12 @@ export const experience = [
 		companylogo: moody,
 		color: "#BF5600",
 		date: "December 2020 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Researching deep learning applications for articulation-to-speech synthesis and neural activity decoding to develop more advanced silent speech interfaces under the supervision of Professor Jun Wang at UT Austin",
+		descBullets: [
+			"Trained support vector machine (SVM), deep neural network (DNN), and convolutional neural network (CNN) for near real time decoding of articulatory data to demonstrate the efficacy of new wearable electromagnetic articulograph (EMA) system",
+			"Authored paper regarding promising model results (SVM: 90.85%, DNN: 88.00%, and CNN: 90.13% cross validation accuracies) and submitted to 2022 Motor Speech Conference",
+		],
+		link: "https://slhs.utexas.edu/research/wang-lab/home"
 	},
 
 	{
@@ -178,8 +190,13 @@ export const experience = [
 		color: "#454545",
 		companylogo: larg,
 		date: "January 2020 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
+		desc: "Researching dynamic robot navigation parameter configuration under Dr. Xuesu Xiao and human behavior decoding for robot navigation to better human-robot interaction under Professor Justin Hart at UT Austin",
+		descBullets: [
+			"Developed CNN-DNN model to decode RGB camera and lidar data for adaptive planner parameter learning (APPL). Co-authoring paper for submission to IEEE International Conference on Robotics and Automation (ICRA)",
+			"Configuring system of Azure Kinect cameras to extract person joint movement in hallway and developing auto-encoder to extract and interpret implicit human actions. Co-authoring paper for submission to ACM/IEEE International Conference on Human-Robot Interaction",
+		],
+		link: "https://www.cs.utexas.edu/~larg/index.php/Learning_Agents_Research_Group"
+	}, 
 	{
 		role: "Tech Team Member",
 		company: "Freetail Hackers",
