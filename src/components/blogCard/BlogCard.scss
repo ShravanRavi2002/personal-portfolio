@@ -10,7 +10,7 @@
   background-color: $lightBackground1;
   box-shadow: 0 0 36px $lightBoxShadow;
   cursor: pointer;
-  height: 250px;
+  height: max-content;
 }
 
 .blog-title {
@@ -22,26 +22,47 @@
   margin-right: 20px;
   margin-bottom: 14px;
   margin-top: 32px;
+  height: 100px;
   overflow: wrap;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 
+.test {
+  color: $blogCardTitleColor
+}
 
-
-.small {
+.blog-conference {
   color: $blogCardTitleColor;
-  font-size: 17px;
+  font-size: 10px;
+  padding-top: 15px;
+  justify-self: flex-end;
+  text-align: center;
+}
+.blog-submission {
+  color: $blogCardTitleColor;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  justify-self: flex-end;
+  text-align: center;
+}
+
+
+.blog-description {
+  color: $blogCardTitleColor;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
-  line-height: 1.5rem;
-  color: $cardSubtitle;
-  padding: 0px 20px;
-  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;;
+  overflow: wrap;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  margin: 0px;
+  height: 50px;
 }
 
 .go-corner {
@@ -95,7 +116,7 @@
   transform: scale(30);
 }
 
-.blog-card:hover > .small {
+.blog-card:hover > .blog {
   transition: all 0.3s ease-out;
   color: $blogCardHoverSmallColor;
 }

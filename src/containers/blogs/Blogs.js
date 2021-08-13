@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import {Row, Col, Container} from "reactstrap"
 // import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
-  const {isDark} = false;
+  // const {isDark} = false;
   if (!blogSection.display) {
     return null;
   }
@@ -24,7 +24,7 @@ export default function Blogs() {
                   <h4 className="display-3 text-info">Publications</h4>
                   </div>
             </div>
-            <Row  style={{justifyContent: "center", margin: "center"}}>
+            <Row style={{justifyContent: "center", margin: "center"}}>
               <div className="main" id="blogs">
                 <div className="blog-header">
                 </div>
@@ -34,12 +34,15 @@ export default function Blogs() {
                       return (
                         <BlogCard
                           key={i}
-                          isDark={isDark}
+                          // isDark={isDark}
                           blog={{
                             url: blog.url,
                             image: blog.image,
                             title: blog.title,
-                            description: blog.description
+                            description: blog.description,
+                            conference: blog.conference,
+                            submission: blog.submission,
+                            finished: blog.url != null
                           }}
                         />
                       );

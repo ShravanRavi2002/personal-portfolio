@@ -1,11 +1,14 @@
 import React from "react";
 import "./BlogCard.scss";
 import {blogSection} from "../../portfolio";
+import GreetingLottie from "../../components/DisplayLottie";
+import construction from "../../assets/lottie/construction.json"
 
 function BoldedText( text, shouldBeBold, isDark ) {
   const textArray = text.split(shouldBeBold);
+  console.log(isDark)
   return (
-    <span className={isDark ? "small-dark" : "small"}>
+    <h3 className={"blog-description"}>
       {textArray.map((item, index) => (
         <>
           {item}
@@ -14,11 +17,12 @@ function BoldedText( text, shouldBeBold, isDark ) {
           )}
         </>
       ))}
-    </span>
+    </h3>
 );
 }
 
 export default function BlogCard({blog, isDark}) {
+  isDark=false;
   function openUrlInNewTab(url) {
     if (url !== undefined) {
       var win = window.open(url, "_blank");
@@ -33,15 +37,25 @@ export default function BlogCard({blog, isDark}) {
           className={
             isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"
           }
-          href="#blog"
         >
             <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
               {blog.title}
             </h3>
+          {console.log(isDark)}
+          {BoldedText(blog.description, blogSection.name, isDark)}
+          {blog.finished ? null :  
+          <div style={{height: "70%", maxHeight: "200px" ,justifyContent: "center", marginLeft: "32%"}}>
+              <GreetingLottie animationData={construction}  style={{maxWidth: "100%", maxHeight: "100%"}}/>
+          </div>
           
-          <p className={isDark ? "small-dark" : "small"}>
-            {BoldedText(blog.description, blogSection.name, isDark)}
-          </p>
+          }
+          <hr style={{width: "90%", justifyContent: "center", margin: "auto"}}></hr>
+          <h3 className="blog-conference">{blog.conference}</h3>
+          {
+            blog.finished ? <h3 className="blog-submission">{`Submitted on: ${blog.submission}`}</h3> : <h3 className="blog-submission">{`Submitting on: ${blog.submission}`}</h3>    
+          }          
+          
+          
           <div className="go-corner">
             <div className="go-arrow">→</div>
           </div>

@@ -78,26 +78,30 @@ export const blogSection = {
 	  {
 		url: CHASE,
 		title: "Crowdsourcing Personalized Medicine: Applying Machine Learning to Unstructured Social Media Data to Improve Breast Cancer Patient Outcomes",
-		description:
-		  `Gregory Falco, Shravan Ravi, Modadeoluwa Ogunmuyiwa, Caleb Li`
+		description: "Gregory Falco, Shravan Ravi, Modadeoluwa Ogunmuyiwa, and Caleb Li",
+		conference: "IEEE/ACM Conference on Connected Health Applications, Systems, and Engineering Technologies",
+		submission: "July 16, 2021",
 	  },
 	  {
-		url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-		title: "Why REACT is The Best?",
-		description:
-		  "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+		url: "",
+		title: "A Wearable Electromagnetic Articulograph (EMA) for Silent Speech Interface",
+		description: "Shravan Ravi, Beiming Cao, Nordine Sebkhi, Arpan Bhavsar, Omer T. Inan, and Jun Wang", 
+		conference: "Madonna Motor Speech Conference ",
+		submission: "August 31, 2021",
 	  },
 	  {
-		url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-		title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-		description:
-		  "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+		url: null,
+		title: "CV-APPLD: Computer Vision based Adaptive Planner Parameter Learning from Demonstration",
+		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, and Peter Stone",
+		conference: "IEEE International Conference on Robotics and Automation",
+		submission: "September 16, 2021",
 	  },
 	  {
-		url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-		title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-		description:
-		  "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+		url: null,
+		title: "Near Real Time Involuntary Human Behavior Decoding for Robot Hallway Navigation",
+		description: "TBD",
+		conference: "ACM/IEEE International Conference on Human-Robot Interaction",
+		submission: "October 1, 2021",
 	  },
 	],
 	display: true // Set false to hide this section, defaults to true
