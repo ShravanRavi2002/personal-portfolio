@@ -24,7 +24,7 @@ const companies = [
     {
       "symbol": "MMM",
       "name": "Java",
-      "backgroundColor": "#1B262B",
+      "backgroundColor": "#C47E1C",
       "textColor": "white",
       "image": java
     },
@@ -79,6 +79,13 @@ const companies = [
         "image": angular
     },
     {
+      "symbol": "AES",
+      "name": "React Native",
+      "backgroundColor": "#343434",
+      "textColor": "white",
+      "image": reactnative
+    },
+    {
       "symbol": "ADBE",
       "name": "Javascript",
       "backgroundColor": "#010101",
@@ -93,13 +100,7 @@ const companies = [
       "image": typescript
     },
 
-    {
-      "symbol": "AES",
-      "name": "React Native",
-      "backgroundColor": "#343434",
-      "textColor": "white",
-      "image": reactnative
-    },
+
     {
       "symbol": "AFL",
       "name": "Node",
