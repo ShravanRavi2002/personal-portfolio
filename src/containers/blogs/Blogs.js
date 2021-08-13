@@ -10,6 +10,7 @@ export default function Blogs() {
   if (!blogSection.display) {
     return null;
   }
+  var name = "Shravan"
   return (
     <Container >
       <Fade bottom duration={1000} distance="20px">
