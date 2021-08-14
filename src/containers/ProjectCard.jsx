@@ -27,11 +27,11 @@ const ProjectCard = ({ value }) => {
           ) : (
             <Skeleton count={3} />
           )}
-          {/* {value ? (
+          {value ? (
             <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
             <Skeleton />
-          )} */}
+          )}
         </Card.Body>
       </Card>
   );
@@ -130,8 +130,8 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
   }, [handleUpdatetime]);
 
   return (
-    <p className="card-text">
-      <a
+    <p className="card-text" style={{textAlign: "right"}}>
+      {/* <a
         href={repo_url + "/stargazers"}
         target=" _blank"
         className="text-dark text-decoration-none"
@@ -140,7 +140,7 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
           <i className="fa fa-star" style={{padding: "10px"}} /> Stars{" "}
           <span className="badge badge-dark">{star_count}</span>
         </span>
-      </a>
+      </a> */}
       <small className="text-muted">Updated {updated_at}</small>
     </p>
   );
