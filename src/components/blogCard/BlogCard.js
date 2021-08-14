@@ -44,7 +44,7 @@ export default function BlogCard({blog, isDark}) {
           {console.log(isDark)}
           {BoldedText(blog.description, blogSection.name, isDark)}
           {blog.finished ? null :  
-          <div style={{height: "70%", maxHeight: "200px" ,justifyContent: "center", marginLeft: "32%"}}>
+          <div className="blog-construction">
               <GreetingLottie animationData={construction}  style={{maxWidth: "100%", maxHeight: "100%"}}/>
           </div>
           
