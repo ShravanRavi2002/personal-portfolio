@@ -207,15 +207,23 @@ export const experience = [
 		color: "#511FAE",
 		companylogo: freetail,
 		date: "January 2020 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Member of UT Austin hackathon organizer team, responsible for development",
+		descBullets: [
+			"Built hackathon guide for beginner coders with boilerplate projects for a variety of languages and frameworks",
+			"Developed chat application for HackTX hackathon website with Javascript, HTML, and CSS using React, MongoDB and socket.io",
+		],
 	},
 	{
 		role: "Full-Stack Developer",
-		company: "Chartfleu",
+		company: "Chartfleau",
 		color: "#8319D3",
 		companylogo: chartfleau,
 		date: "November 2020 – February 2021",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Contributed to website with graphics depicting a variety of fincancial market information",
+		descBullets: [
+			"Researched stock and cryptocurrency market trends under the mentorship of graduates supervisor from RBC Capital Markets",
+			"Created visuals to support findings Nivo using Javascript and React",
+		],
 	},
 
 	{
@@ -223,7 +231,11 @@ export const experience = [
 		company: "Genius Test Prep",
 		companylogo: GTP,
 		date: "May 2019 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Co-founded test prep service, created market strategy, designed and built website, managed financials, and developed curriculum",
+		descBullets: [
+			"Expanded business to incorporate college admissions and emphasize mission of supporting underprivileged students in the greater Austin area",
+			"Employed and managed 2 tutors. Aproximately $10,000 in annual recurring revenue  ",
+		],
 	},
 ];
 
