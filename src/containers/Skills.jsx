@@ -49,16 +49,17 @@ const Skills = () => {
                 </Row>
             </Fade>
             <Row>
-                <div className="bubbleContainer">
-                    <Fade duration={1000} ><Bubbles/></Fade>
-                    </div>
-                <div className="education-section" id="education">
+            <div className="education-section" id="education">
                     <div className="education-card-container">
                     {educationInfo.schools.map((school, index) => (
                         <EducationCard key={index} school={school} />
                     ))}
                 </div>
-      </div>
+            </div>
+                <div className="bubbleContainer">
+                    <Fade duration={1000} ><Bubbles/></Fade>
+                    </div>
+
             </Row>
             </Container>
         </Fade>
