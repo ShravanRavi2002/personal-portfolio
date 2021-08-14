@@ -29,7 +29,7 @@ export default function App(props) {
     cornerRadius: 100,
     showGuides: false,
     compact: false,
-    gravitation: 5,
+    gravitation: 5
   });
 
 
