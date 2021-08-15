@@ -11,7 +11,7 @@ import "./Bubbles.css"
 export default function App(props) {
 
   const getStockBubbles = () => {
-    return companyData.slice(0, 20).map((company, i) => {
+    return companyData.map((company, i) => {
       return <CompanyBubble {...company} key={i} />;
     });
   };

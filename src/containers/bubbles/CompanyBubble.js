@@ -25,7 +25,7 @@ export default function CompanyBubble(props) {
             src={props.image}
             alt=""
             style={{
-              maxWidth: 50,
+              // maxWidth: 50,
               maxHeight: 50,
               marginBottom: 10,
               display: "block"
