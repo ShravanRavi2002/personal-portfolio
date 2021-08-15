@@ -7,7 +7,6 @@ import { ChakraProvider, Box, extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools"
 import Card from "../components/badge/card";
 import greeting from '../assets/lottie/greeting.json';
-import scroll from '../assets/lottie/scroll.json'
 import { Fade } from 'react-reveal';
 
 import {
