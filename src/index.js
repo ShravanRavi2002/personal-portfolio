@@ -11,7 +11,10 @@ import Project from "./containers/Project";
 import GithubProfile from "./containers/GithubProfile";
 import Feedbacks from "./containers/Feedbacks";
 import Publications from "./containers/blogs/Blogs";
-
+import "./containers/Skills.scss"
+import Bubbles from "./containers/bubbles/Bubble"
+import { Fade } from 'react-reveal';
+import IconBubbles from "./containers/IconBubbles"
 
 import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
@@ -22,6 +25,7 @@ ReactDOM.render(
 		{/* <Navigation /> */}
 		<Greetings />
 		<Skills />
+		<IconBubbles/>
 		{/* <Proficiency /> */}
 		{/* <Education /> */}
 		<Experience />

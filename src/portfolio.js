@@ -13,7 +13,7 @@ import chartfleau from "./assets/img/icons/common/chartfleau.png"
 import GTP from "./assets/img/icons/common/GTP.png"
 import openPHR from "./assets/img/icons/common/openphr.png"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
-
+import transcript from "./assets/Unoffical Transcript.pdf"
 export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
@@ -55,6 +55,7 @@ export const skillsSection = {
 
 export const educationInfo = {
 	display: true, // Set false to hide this section, defaults to true
+	
 	schools: [
 
 	  {
@@ -63,7 +64,8 @@ export const educationInfo = {
 		subHeader: "Bachelor of Science in Computer Science",
 		duration: "August 2020 - May 2024",
 		desc: "GPA: 4.00", 
-		coursework: "Data Structures, Computer Architecture, Operating Systems, Linear Algebra, Probability and Statstics, Discrete Math, Multivariable Caculus"
+		coursework: "Data Structures, Computer Architecture, Operating Systems, Linear Algebra, Probability and Statstics, Discrete Math, Multivariable Caculus",
+		transcript: transcript,
 	  }
 	]
   };
