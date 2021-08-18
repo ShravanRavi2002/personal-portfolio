@@ -9,12 +9,12 @@ const SocialLinks = () => {
         <div className="btn-wrapper text-lg">
             <Button
                   className="btn-icon-only rounded-circle"
-                  color="twitter"
-                  href={socialLinks.twitter}
+                  color="success"
+                  href={socialLinks.email}
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-envelope" />
                   </span>
                 </Button>
                 <Button
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                    <i className="fa fa-facebook" />
                   </span>
                 </Button>
                 <Button
