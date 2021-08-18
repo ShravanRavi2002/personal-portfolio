@@ -10,7 +10,7 @@ import Experience from "./containers/Experience";
 import Project from "./containers/Project";
 import GithubProfile from "./containers/GithubProfile";
 import Feedbacks from "./containers/Feedbacks";
-import Publications from "./containers/blogs/Blogs";
+import Publications from "./containers/blogs/Blogs.jsx";
 import "./containers/Skills.scss"
 import Bubbles from "./containers/bubbles/Bubble"
 import { Fade } from 'react-reveal';
@@ -22,7 +22,7 @@ import "assets/css/argon-design-system-react.css";
 
 ReactDOM.render(
 	<>
-		{/* <Navigation /> */}
+		<Navigation />
 		<Greetings />
 		<Skills />
 		<IconBubbles/>

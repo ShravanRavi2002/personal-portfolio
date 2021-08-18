@@ -243,21 +243,21 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "Unmasking-Congress",
+		demo: "example.com"
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "personal-portfolio",
+		demo: "example.com"
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "WinterHacklympics-2020",
+		demo: "example.com"
 	},
+	{
+		name: "Hackbrown-2021",
+		demo: "example.com"
+	}
 ];
 
 export const feedbacks = [
