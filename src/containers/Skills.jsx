@@ -6,7 +6,7 @@ import GreetingLottie from "../components/DisplayLottie";
 import { greetings } from "../portfolio";
 import webdev from '../assets/lottie/webdev.json';
 import code from '../assets/lottie/coding.json';
-import "./Skills.scss"
+// import "./Skills.scss"
 import Bubbles from "./bubbles/Bubble"
 import "./Education.scss"
 import EducationCard from "../components/educationCard/EducationCard";
@@ -26,8 +26,8 @@ const Skills = () => {
     return ( 
                 <Fade left duration={1000} distance="40px">
                 
-                <Container className="text-center my-5 section section-lg" style={{paddingBottom: 0, marginBottom: 0}}>
-                <div className="d-flex p-4">
+                <Container className="text-center my-5 section section-lg" style={{paddingBottom: 0, marginBottom: 0, paddingTop: 0, marginTop: 0}} id="about">
+                <div className="d-flex px-4">
                         <div>
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                             <i className="ni ni-single-02 text-info" />

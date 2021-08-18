@@ -8,24 +8,12 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    :hover {
-        padding: 10px;
-        border-radius: 100%;
-        // border: 20px solid black;
-        box-shadow: 2px 2px 2px  rgba(0,0,0,0.6);
-        margin: auto;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        font-size: 6em;
-    }
 }
 
 .bubbleContainer {
     display: flex;
     justify-content: center;
     margin: center;
-    cursor: all-scroll;
     background-color: #11CDEF;
     padding-bottom: 50px;
 }
