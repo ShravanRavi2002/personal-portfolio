@@ -15,9 +15,10 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import { Link, scroller } from "react-scroll";
 
 import './Navigation.css'
-
+import './Header.scss'
 const Navigation = () => {
     const [collapseClasses, setCollapseClasses] = useState("");
     const onExiting = () => setCollapseClasses("collapsing-out");
@@ -39,12 +40,95 @@ const Navigation = () => {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5">
-                <h2 className="text-white" id="nav-title">{greetings.name}</h2>
-              </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
-                <span className="navbar-toggler-icon" />
-              </button>
+              {/* <NavbarBrand className="mr-lg-5">
+          
+              </NavbarBrand> */}
+              <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <li className="nav-item" >
+                    <Link
+                          href="#home"
+                          to="home"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          >
+                          <i className="fa fa-home" />
+                          Home
+                      </Link>
+                </li>
+                <li className="nav-item" >
+                    <Link
+                        href="#about"
+                        to="about"
+                        activeClass="active"
+                        className="nav-link"
+                        spy={true}
+                        smooth={true}
+                        duration={1000}
+                      >
+                          <i className="fa fa-user" />
+                          About Me
+                      </Link>
+                </li>  
+                <li className="nav-item" >
+                    <Link
+                          href="#skills"
+                          to="skills"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={1000}
+                          >
+                          <i className="fa fa-laptop" />
+                          Skills
+                      </Link>
+                </li>  
+                <li className="nav-item" >
+                    <Link
+                          href="#experience"
+                          to="experience"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          >
+                           <i className="fa fa-briefcase" />
+                          Experience
+                      </Link>
+                </li>  
+                <li className="nav-item" >
+                    <Link
+                          href="#publications"
+                          to="publications"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          >
+                          <i className="ni ni-books" />
+                          Publications
+                      </Link>
+                </li>  
+                <li className="nav-item" >
+                    <Link
+                          href="#projects"
+                          to="projects"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          >
+                          <i className="ni ni-archive-2" />
+                          Projects
+                      </Link>
+                </li>  
+                </Nav>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
@@ -68,6 +152,42 @@ const Navigation = () => {
                   </Row>
                 </div>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href={socialLinks.github}
+                      target="_blank"
+                    >
+                      <i className="fa fa-github" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Github
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href={socialLinks.linkedin}
+                      target="_blank"
+                    >
+                    <i className="fa fa-linkedin" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Linkedin
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href={socialLinks.twitter}
+                      target="_blank"
+                    >
+                      <i className="fa fa-twitter-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Twitter
+                      </span>
+                    </NavLink>
+                  </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
@@ -92,43 +212,10 @@ const Navigation = () => {
                       </span>
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.twitter}
-                      target="_blank"
-                    >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.github}
-                      target="_blank"
-                    >
-                      <i className="fa fa-github" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Github
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.linkedin}
-                      target="_blank"
-                    >
-                    <i className="fa fa-linkedin" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Linkedin
-                      </span>
-                    </NavLink>
-                  </NavItem>
+                  
+                  
                 </Nav>
+              
               </UncontrolledCollapse>
             </Container>
           </Navbar>
@@ -139,12 +226,84 @@ const Navigation = () => {
  
 export default Navigation;
 
+
+// import { Navbar, Nav } from "react-bootstrap";
+// import React from "react";
+// // import { Link } from "react-scroll";
+// import { NavHashLink as Link } from "react-router-hash-link";
+
+// export default function NavbarDefault() {
+//   const scrollWithOffset = (el, offset) => {
+//     window.scroll({
+//       top: el.offsetTop - offset,
+//       left: 0,
+//       behavior: "smooth"
+//     });
+//   };
+
+//   return (
+//     <div>
+//       <Navbar
+//         collapseOnSelect
+//         expand="sm"
+//         className="navbar"
+//         bg="navbar"
+//         variant="dark"
+//       >
+//         {/* <LinkContainer to="/"> */}
+//         <Navbar.Brand id="brand">A P</Navbar.Brand>
+//         {/* </LinkContainer> */}
+//         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//         <Navbar.Collapse id="responsive-navbar-nav">
+//           <Nav className="ml-auto">
+//             <Link
+//               activeClass="active"
+//               to="/#home"
+//               spy={true}
+//               smooth={true}
+//               scroll={(el) => scrollWithOffset(el, 75)}
+//               exact
+//               className="nav-link"
+//             >
+//               Home
+//             </Link>
+
+//             <Link
+//               activeClass="active"
+//               to="/#experience"
+//               spy={true}
+//               smooth={true}
+//               duration={500}
+//               scroll={(el) => scrollWithOffset(el, 75)}
+//               exact
+//               className="nav-link"
+//             >
+//               Experience
+//             </Link>
+//             <Link
+//               activeClass="active"
+//               to="/#contact"
+//               spy={true}
+//               smooth={true}
+//               duration={500}
+//               exact
+//               className="nav-link"
+//             >
+//               Contact
+//             </Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Navbar>
+//     </div>
+//   );
+// }
+
+
 // import React from "react";
 // import Headroom from "react-headroom";
-// import "./Header.scss";
+// // import "./Header.scss";
 // import {
 //   // greeting,
-//   workExperiences,
 //   skillsSection,
 //   openSource,
 //   // blogSection,
@@ -153,7 +312,7 @@ export default Navigation;
 
 // function Navigation() {
 //   const {isDark} = false;
-//   const viewExperience = workExperiences.display;
+//   // const viewExperience = workExperiences.display;
 //   const viewOpenSource = openSource.display;
 //   const viewSkills = skillsSection.display;
 //   // const viewBlog = blogSection.display;
@@ -180,11 +339,11 @@ export default Navigation;
 //               <a href="#skills">Skills</a>
 //             </li>
 //           )}
-//           {viewExperience && (
+//           {/* {viewExperience && (
 //             <li>
 //               <a href="#experience">Work Experiences</a>
 //             </li>
-//           )}
+//           )} */}
 //           {viewOpenSource && (
 //             <li>
 //               <a href="#opensource">Open Source</a>
@@ -203,9 +362,7 @@ export default Navigation;
 //           <li>
 //             <a href="#contact">Contact Me</a>
 //           </li>
-//           <li>
-//             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-//           </li>
+
 //         </ul>
 //       </header>
 //     </Headroom>
