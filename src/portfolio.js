@@ -29,11 +29,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/shravan.ravi.16547/",
+	instagram: "https://www.instagram.com/shravan_ravi2002/",
+	email: "mailto:ravi.shravan@gmail.com",
+	github: "https://github.com/ShravanRavi2002",
+	linkedin: "https://linkedin.com/in/shravan-ravi",
 };
 
 export const skillsSection = {
@@ -252,11 +252,11 @@ export const projects = [
 	},
 	{
 		name: "WinterHacklympics-2020",
-		demo: "example.com"
+		demo: "https://www.youtube.com/watch?v=d-fTVRaD4ns"
 	},
 	{
 		name: "Hackbrown-2021",
-		demo: "example.com"
+		demo: "https://www.youtube.com/watch?v=qVqoN-nQntw"
 	}
 ];
 
