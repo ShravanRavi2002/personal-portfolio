@@ -1,2 +1,0 @@
-(this["webpackJsonppersonal-portfolio"]=this["webpackJsonppersonal-portfolio"]||[]).push([[106],{721:function(t,s,n){"use strict";function o(t){t.languages.properties={comment:/^[ \t]*[#!].*$/m,"attr-value":{pattern:/(^[ \t]*(?:\\(?:\r\n|[\s\S])|[^\\\s:=])+?(?: *[=:] *| ))(?:\\(?:\r\n|[\s\S])|[^\\\r\n])+/m,lookbehind:!0},"attr-name":/^[ \t]*(?:\\(?:\r\n|[\s\S])|[^\\\s:=])+?(?= *[=:] *| )/m,punctuation:/[=:]/}}t.exports=o,o.displayName="properties",o.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_properties.69ca2ae7.chunk.js.map
