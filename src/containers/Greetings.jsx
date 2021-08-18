@@ -36,15 +36,9 @@ const Greetings = () => {
     document.scrollingElement.scrollTop = 0;
   })
 
-  const text = useTypewriter({
-    words: [''],
-    loop: 1, // Infinit
-    typeSpeed: 70,
-    delaySpeed: 2000,
-  })
   return ( 
-    <Fade top duration={1000} distance="40px">
-        <main ref="main"style={{height: "max-content", maxHeight: "1000px"}}>
+    <Fade left duration={1000} distance="40px">
+        <main ref="main"style={{height: "max-content", maxHeight: "1000px", paddingBottom: 0, marginBottom: 0}} id="home"> 
           <div className="position-relative">
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 bg-gradient-info">
@@ -58,7 +52,7 @@ const Greetings = () => {
                 <span />
                 <span />
               </div>
-              <Container className="py-lg-md d-flex">
+              <Container className="py-lg-md d-flex" style={{marginTop: "50px"}}>
                 <div className="col px-0">
                   <Row lg="10">
                     <Col lg="6"  style={{marginRight: "40px"}}>
