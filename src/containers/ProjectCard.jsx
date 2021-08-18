@@ -6,7 +6,7 @@ import axios from "axios";
 import colors from "./Colors.json"
 import MultiColorProgressBar from "./LanguageBar/MultiColorProgressBar";
 import { projects } from "../portfolio";
-
+import {Fade} from "react-reveal"
 const ProjectCard = ({ value }) => {
   const {
     name,
@@ -24,6 +24,9 @@ const ProjectCard = ({ value }) => {
   })
   console.log(demo_url)
   return (
+    <Fade>
+
+    
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
@@ -42,6 +45,7 @@ const ProjectCard = ({ value }) => {
           )}
         </Card.Body>
       </Card>
+      </Fade>
   );
 };
 
@@ -55,6 +59,7 @@ const CardButtons = ({ svn_url, demo_url }) => {
             href={svn_url}
             className="btn btn-outline-secondary mr-3"
             style={{ margin: "15px"}}
+            target="_blank"
           >
             <i className="fa fa-github" style={{paddingRight: "5px"}}/> Repo
           </a>
@@ -62,6 +67,7 @@ const CardButtons = ({ svn_url, demo_url }) => {
             href={demo_url}
             className="btn btn-outline-secondary mr-3"
             style={{ margin: "15px"}}
+            target="_blank"
           >
             <i className="fa fa-laptop" style={{paddingRight: "5px"}}/> Demo
           </a>

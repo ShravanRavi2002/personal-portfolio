@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
-
+import {Fade} from "react-reveal"
 const dummyProject = {
   name: null,
   description: null,
@@ -70,46 +70,52 @@ const Project = ({ heading, username, length, specfic }) => {
                     </div>
                 </div>
             <div style={{display: "flex", justifyContent: "center"}}>
-              <Col lg={7}>
-                        {projectsArray.length
-                          ?
-                         
-                          projectsArray.map((project, index) => (
-                            leftCol.includes(index) ?
-                            
-                              <ProjectCard
-                                key={`project-card-${index}`}
-                                id={`project-card-${index}`}
-                                value={project}
-                              /> : null
-                              )) 
-                          : dummyProjectsArr.map((project, index) => (
-                              <ProjectCard
-                                key={`dummy-${index}`}
-                                id={`dummy-${index}`}
-                                value={project}
+              <Fade>
+            <Row>
+                <Col lg={6}>
+                      {projectsArray.length
+                        ?
+                        
+                        projectsArray.map((project, index) => (
+                          leftCol.includes(index) ?
+                          
+                            <ProjectCard
+                              key={`project-card-${index}`}
+                              id={`project-card-${index}`}
+                              value={project}
+                            /> : null
+                            )) 
+                        : dummyProjectsArr.map((project, index) => (
+                            <ProjectCard
+                              key={`dummy-${index}`}
+                              id={`dummy-${index}`}
+                              value={project}
 
-                              />
-                            ))}
-                      </Col>
-                      <Col lg={7}>
-                        {projectsArray.length
-                          ? projectsArray.map((project, index) => (
-                            rightCol.includes(index) ?
-                              <ProjectCard
-                                key={`project-card-${index}`}
-                                id={`project-card-${index}`}
-                                value={project}
-                              /> : null
-                              )) 
-                          : dummyProjectsArr.map((project, index) => (
-                              <ProjectCard
-                                key={`dummy-${index}`}
-                                id={`dummy-${index}`}
-                                value={project}
-                              />
-                            ))}
-                      </Col>
+                            />
+                          ))}
+                    </Col>
+                  
+                    <Col lg={6}>
+                      {projectsArray.length
+                        ? projectsArray.map((project, index) => (
+                          rightCol.includes(index) ?
+                            <ProjectCard
+                              key={`project-card-${index}`}
+                              id={`project-card-${index}`}
+                              value={project}
+                            /> : null
+                            )) 
+                        : dummyProjectsArr.map((project, index) => (
+                            <ProjectCard
+                              key={`dummy-${index}`}
+                              id={`dummy-${index}`}
+                              value={project}
+                            />
+                          ))}
+                    </Col>
+            </Row>
+            </Fade>
+              
             
         </div>
         
