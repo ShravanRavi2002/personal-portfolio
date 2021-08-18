@@ -16,6 +16,7 @@
   -moz-transform: translate3d(0, 0, 0);
   margin-bottom: 10px;
   background-color: red;
+  cursor: all-scroll;
 }
 
 .companyBubble {

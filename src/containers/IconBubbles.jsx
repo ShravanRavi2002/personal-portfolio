@@ -25,12 +25,12 @@
    
    const IconBubbles = () => {
        return ( 
-        <div className="bubbleContainer">
+        <div className="bubbleContainer" id="skills">
             <Container>
             <div className="d-flex p-4">
                         <div>
                             <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                            <i className="ni ni-single-02 text-info" />
+                            <i className="fa fa-laptop text-info" />
                             </div>
                         </div>
                         <div className="pl-4">

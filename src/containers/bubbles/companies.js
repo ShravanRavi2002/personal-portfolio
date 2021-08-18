@@ -77,11 +77,10 @@ const companies = [
     },
 
     {
-      "name": "React",
+      "name": "React Native",
       "backgroundColor": "#343434",
       "textColor": "white",
-      "image": react
-
+      "image": reactnative
     },
     {
         "name": "Angular",
@@ -89,11 +88,13 @@ const companies = [
         "textColor": "white",
         "image": angular
     },
+
     {
-      "name": "React Native",
+      "name": "React",
       "backgroundColor": "#343434",
       "textColor": "white",
-      "image": reactnative
+      "image": react
+
     },
     {
       "name": "Javascript",
