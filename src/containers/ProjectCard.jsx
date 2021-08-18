@@ -5,6 +5,7 @@ import Skeleton from "react-loading-skeleton";
 import axios from "axios";
 import colors from "./Colors.json"
 import MultiColorProgressBar from "./LanguageBar/MultiColorProgressBar";
+import { projects } from "../portfolio";
 
 const ProjectCard = ({ value }) => {
   const {
@@ -15,12 +16,19 @@ const ProjectCard = ({ value }) => {
     languages_url,
     pushed_at,
   } = value;
+  var demo_url = null
+  projects.map((project) => {
+    if(name === project.name) {
+      demo_url = project.demo
+    }
+  })
+  console.log(demo_url)
   return (
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
-          {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+          {svn_url ? <CardButtons svn_url={svn_url} demo_url={demo_url}/> : <Skeleton count={2} />}
           <hr style={{paddingBottom: "15px"}}/>
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -37,25 +45,33 @@ const ProjectCard = ({ value }) => {
   );
 };
 
-const CardButtons = ({ svn_url }) => {
+
+
+const CardButtons = ({ svn_url, demo_url }) => {
   return (
     <>
       <div style={{display: "flex", justifyContent: "center", margin: "auto",}}> 
           <a
-            href={`${svn_url}/archive/master.zip`}
+            href={svn_url}
             className="btn btn-outline-secondary mr-3"
             style={{ margin: "15px"}}
           >
             <i className="fa fa-github" style={{paddingRight: "5px"}}/> Repo
           </a>
-          <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mr-3" style={{ margin: "15px"}}>
-            <i className="fa fa-laptop" /> Demo
+          <a
+            href={demo_url}
+            className="btn btn-outline-secondary mr-3"
+            style={{ margin: "15px"}}
+          >
+            <i className="fa fa-laptop" style={{paddingRight: "5px"}}/> Demo
           </a>
       </div>
 
     </>
   );
 };
+
+
 
 const Language = ({ languages_url, repo_url }) => {
   const [data, setData] = useState([]);
