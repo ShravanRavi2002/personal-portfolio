@@ -58,7 +58,7 @@ const Project = ({ heading, username, length, specfic }) => {
   var leftCol = [1, 2]
   var rightCol = [0, 3]
   return (
-      <Container className="">
+      <Container className="" id="projects">
         <div className="d-flex p-4" >
             <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -66,14 +66,17 @@ const Project = ({ heading, username, length, specfic }) => {
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-info">Hackathon Projects</h4>
+                        <h4 className="display-3 text-info">Projects</h4>
                     </div>
                 </div>
             <div style={{display: "flex", justifyContent: "center"}}>
               <Col lg={7}>
                         {projectsArray.length
-                          ? projectsArray.map((project, index) => (
+                          ?
+                         
+                          projectsArray.map((project, index) => (
                             leftCol.includes(index) ?
+                            
                               <ProjectCard
                                 key={`project-card-${index}`}
                                 id={`project-card-${index}`}
@@ -85,6 +88,7 @@ const Project = ({ heading, username, length, specfic }) => {
                                 key={`dummy-${index}`}
                                 id={`dummy-${index}`}
                                 value={project}
+
                               />
                             ))}
                       </Col>
