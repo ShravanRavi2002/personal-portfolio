@@ -29,9 +29,6 @@
   -webkit-box-orient: vertical;
 }
 
-.test {
-  color: $blogCardTitleColor
-}
 
 .blog-conference {
   color: $blogCardTitleColor;
@@ -49,6 +46,12 @@
   text-align: center;
 }
 
+.line {
+  width: 90%; 
+  justify-content: center; 
+  margin: auto;
+  background-color: $blogCardTitleColor; 
+}
 
 .blog-description {
   color: $blogCardTitleColor;
