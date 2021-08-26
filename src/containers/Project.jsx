@@ -55,10 +55,10 @@ const Project = ({ heading, username, length, specfic }) => {
     fetchRepos();
   }, [fetchRepos]);
 
-  var leftCol = [1, 2]
-  var rightCol = [0, 3]
+  var leftCol = [0, 2]
+  var rightCol = [1, 3]
   return (
-      <Container className="" id="projects">
+      <Container className="" id="projects" style={{marginTop: -110}}>
         <div className="d-flex p-4" >
             <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">

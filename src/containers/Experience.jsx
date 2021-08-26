@@ -11,7 +11,7 @@ import ExperienceCard from "../components/ExperienceCard";
 import "./Education.scss"
 const Experience = () => {
     return ( 
-        <section className="section section-lg" style={{paddingTop: 0, paddingBottom: 0}} id="experience">
+        <section className="section section-lg" style={{paddingTop: 0, paddingBottom: 0, backgroundColor: "#11CDEF", marginBottom: 0, marginTop: -50}} id="experience">
             <Container>
             <div className="d-flex p-4">
                     <div>
@@ -20,7 +20,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-info">Experience</h4>
+                        <h4 className="display-3 text-white">Experience</h4>
                     </div>
                 </div>
                 <Row className="row-grid align-items-center" style={{marginBottom: "7em"}}>

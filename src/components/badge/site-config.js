@@ -35,13 +35,7 @@ const siteConfig = {
         icon: <FaEnvelope />,
         base: "green"
       },
-      {
-        url: "https://www.instagram.com/shravan_ravi2002/",
-        label: "Instagram Account",
-        type: "red",
-        icon: <FaInstagram />,
-        base: "red"
-      },
+
 
       {
         url: "https://www.facebook.com/shravan.ravi.16547/",
@@ -49,7 +43,14 @@ const siteConfig = {
         type: "blue",
         icon: <FaFacebook />,
         base: "#3b5998"
-      }
+      },
+      {
+        url: "https://www.instagram.com/shravan_ravi2002/",
+        label: "Instagram Account",
+        type: "red",
+        icon: <FaInstagram />,
+        base: "red"
+      },
     ]
   }
 };

@@ -63,14 +63,20 @@ const CardButtons = ({ svn_url, demo_url }) => {
           >
             <i className="fa fa-github" style={{paddingRight: "5px"}}/> Repo
           </a>
+          {demo_url != null ? 
+          
           <a
-            href={demo_url}
-            className="btn btn-outline-secondary mr-3"
-            style={{ margin: "15px"}}
-            target="_blank"
-          >
-            <i className="fa fa-laptop" style={{paddingRight: "5px"}}/> Demo
-          </a>
+          href={demo_url}
+          className="btn btn-outline-secondary mr-3"
+          style={{ margin: "15px"}}
+          target="_blank"
+        >
+          <i className="fa fa-laptop" style={{paddingRight: "5px"}}/> Demo
+        </a> : null
+        
+        } 
+
+
       </div>
 
     </>

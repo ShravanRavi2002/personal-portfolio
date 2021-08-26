@@ -51,7 +51,7 @@ export default function BlogCard({blog, isDark}) {
               </div>
               
               }
-              <hr style={{width: "90%", justifyContent: "center", margin: "auto"}}></hr>
+              {/* <hr className="line"></hr> */}
               <h3 className="blog-conference">{blog.conference}</h3>
               {
                 blog.finished ? <h3 className="blog-submission">{`Submitted on: ${blog.submission}`}</h3> : <h3 className="blog-submission">{`Submitting on: ${blog.submission}`}</h3>    
@@ -59,7 +59,11 @@ export default function BlogCard({blog, isDark}) {
               
               
               <div className="go-corner">
-                <div className="go-arrow">→</div>
+                {/* <div className="go-arrow"><i className="ni ni-archive-2 text-info" /></div> */}
+                <div className="go-arrow">
+                    <i className="fa fa-book" />
+                </div>
+                
               </div>
             </a>
           </div>

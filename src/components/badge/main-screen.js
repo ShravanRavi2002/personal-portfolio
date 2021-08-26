@@ -26,11 +26,11 @@ const iconProps = {
 const MainScreen = () => {
   return (
     <VStack spacing={5}>
-      <motion.div whileHover={{ y: -5, scale: 1.1 }}>
+      <motion.div >
       <img src={pushpin} style={{width: "2.5rem", height: "3rem", padding: 0, marginLeft: "auto", marginRight: "auto", paddingBottom: "1rem"}}></img>
-        <Box boxShadow={"xl"} _hover={{ boxShadow: "lg" }} borderRadius="full">
+        <Box boxShadow={"xl"}  borderRadius="full">
           <Avatar
-            _groupHover={{ width: "5rem", height: '5rem' }}
+            // _groupHover={{ width: "5rem", height: '5rem' }}
             size={"xl"}
             src={profilePic}
           />
@@ -49,12 +49,12 @@ const MainScreen = () => {
         color={"gray.500"}
         fontSize="lg"
         noOfLines={{ base: 3, md: 4 }}
-        _groupHover={{ display: "none" }}
+        // _groupHover={{ display: "none" }}
         display="block"
       >
         Full-Stack Developer
       </Text>
-      <Fade in>
+      {/* <Fade in>
       <Text
         color={"gray.500"}
         fontSize="lg"
@@ -62,9 +62,9 @@ const MainScreen = () => {
         _groupHover={{ display: "block" }}
         display="none"
       >
-        I'm a Computer Science student at UT Austin and love Machine Learning!
+        Full Stack Developer
       </Text>
-      </Fade>
+      </Fade> */}
       <Divider />
       <Flex alignItems="center" justify="center" w="100%">
         <Box textAlign="center">

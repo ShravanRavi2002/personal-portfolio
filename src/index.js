@@ -25,12 +25,9 @@ ReactDOM.render(
 		<Navigation />
 		<Greetings />
 		<Skills />
-		<IconBubbles/>
 		{/* <Proficiency /> */}
 		{/* <Education /> */}
 		<Experience />
-		<Publications />
-
 		<Project
           heading={"Hackathon Projects"}
           username={"ShravanRavi2002"}
@@ -38,6 +35,8 @@ ReactDOM.render(
           specfic={[]}
         />
 		{/* <Feedbacks /> */}
+		<IconBubbles/>
+		<Publications />
 		<GithubProfile />
 	</>,
 	document.getElementById("root")

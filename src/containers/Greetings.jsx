@@ -81,22 +81,21 @@ const Greetings = () => {
                       
 
                     </Col>
-                    <Col lg="5">
-                      <div style={{justifyContent: "center", margin: "center", width: "100%", padding: "auto"}}>
+                    <Col lg="5" >
                           <ChakraProvider >
-                              <Box w="max-content">
+                              <Box p={3}>
                                   <Card />
                               </Box>
                                 
                             </ChakraProvider>
-                      </div>
 
 
-                        <div className="btn-wrapper my-4">
+                        <div className="btn-wrapper my-4" style={{display: "flex", justifyContent: "center",}}>
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href={greetings.resumeLink}
+                          style={{margin: 0}}
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-file" />

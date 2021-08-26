@@ -31,167 +31,194 @@ const companies = [
       "name": "Java",
       "backgroundColor": "#C47E1C",
       "textColor": "white",
-      "image": java
+      "image": java,
+      "docs": "https://go.java/?intcmp=gojava-banner-java-com"
     },
     {
       "name": "Python",
       "backgroundColor": "#ED1C24",
       "textColor": "white",
-      "image": python
+      "image": python,
+      "docs": "https://www.python.org/"
     },
     {
       "name": "C",
       "backgroundColor": "#00003A",
       "textColor": "white",
-      "image": C
+      "image": C,
+      "docs": "https://en.wikipedia.org/wiki/C_(programming_language)"
     },
     {
       "name": "C++",
       "backgroundColor": "#044382",
       "textColor": "white",
-      "image": Cpp
+      "image": Cpp,
+      "docs": 'https://en.cppreference.com/w/'
     },
     {
       "name": "Figma",
       "backgroundColor": "#000000",
       "textColor": "white",
-      "image": figma
+      "image": figma,
+      "docs": "https://www.figma.com/"
     },
     {
       "name": "HTML",
       "backgroundColor": "#FF661E",
       "textColor": "white",
-      "image": html
+      "image": html, 
+      "docs": "https://html.com/"
     },
     {
       "name": "CSS",
       "backgroundColor": "#4599DF",
       "textColor": "white",
-      "image": css
+      "image": css,
+      "docs": "https://www.w3.org/Style/CSS/Overview.en.html"
     },
     {
       "name": "Bootstrap",
       "backgroundColor": "#120278",
       "textColor": "white",
-      "image": bootstrap
+      "image": bootstrap,
+      "docs": "https://getbootstrap.com/"
     },
 
     {
       "name": "React Native",
       "backgroundColor": "#343434",
       "textColor": "white",
-      "image": reactnative
+      "image": reactnative,
+      "docs": "https://reactnative.dev/"
     },
     {
         "name": "Angular",
         "backgroundColor": "#DE2E31",
         "textColor": "white",
-        "image": angular
+        "image": angular,
+        "docs": "https://angular.io/"
     },
 
     {
       "name": "React",
       "backgroundColor": "#343434",
       "textColor": "white",
-      "image": react
+      "image": react,
+      "docs": "https://reactjs.org/"
 
     },
     {
       "name": "Javascript",
       "backgroundColor": "#010101",
       "textColor": "white",
-      "image": javascript
+      "image": javascript,
+      "docs": "https://www.javascript.com/"
     },
     {
       "name": "Typescript",
       "backgroundColor": "#F0F3FA",
       "textColor": "black",
-      "image": typescript
+      "image": typescript,
+      "docs": 'https://www.typescriptlang.org/'
     },
     {
       "name": "Node",
       "backgroundColor": "#3C873A",
       "textColor": "white",
-      "image": node
+      "image": node,
+      "docs": "https://nodejs.org/en/"
     },
     {
       "name": "Flask",
       "backgroundColor": "#009539",
       "textColor": "white",
-      "image": flask
+      "image": flask,
+      "docs": 'https://flask.palletsprojects.com/en/2.0.x/'
     },
     {
       "name": "Django",
       "backgroundColor": "#092e20",
       "textColor": "white",
-      "image": django
+      "image": django,
+      "docs": "https://www.djangoproject.com/"
     },
     {
       "name": "MySQL",
       "backgroundColor": "#F29111",
       "textColor": "white",
-      "image": mysql
+      "image": mysql, 
+      "docs": 'https://www.mysql.com/'
     },
     {
       "name": "MongoDB",
       "backgroundColor": "#00426A",
       "textColor": "white",
-      "image": mongodb
+      "image": mongodb,
+      "docs": "https://www.mongodb.com/"
     },
 
     {
       "name": "Firebase",
       "backgroundColor": "#000000",
       "textColor": "white",
-      "image": firebase
+      "image": firebase,
+      "docs": "https://firebase.google.com/"
     },
     {
       "name": "Git",
       "backgroundColor": "#FEEFEC",
       "textColor": "black",
-      "image": git
+      "image": git,
+      "docs": "https://git-scm.com/"
     },
     {
       "name": "Tensorflow",
       "backgroundColor": "#425066",
       "textColor": "white",
-      "image": tensorflow
+      "image": tensorflow,
+      "docs": "https://www.tensorflow.org/"
     },
     {
       "name": "PyTorch",
       "backgroundColor": "#812CE5",
       "textColor": "white",
-      "image": pytorch
+      "image": pytorch,
+      "docs": 'https://pytorch.org/'
     },
     {
       "name": "Scikit Learn", 
       "backgroundColor": "#343434", 
       "textColor": "white",
-      "image": scikit
+      "image": scikit,
+      "docs": "https://scikit-learn.org/stable/"
     },
     {
       "name": "Numpy", 
       "backgroundColor": "#FFC847", 
       "textColor": "white",
-      "image":numpy
+      "image":numpy,
+      "docs": "https://numpy.org/"
     }, 
     {
       "name": "Pandas", 
       "backgroundColor": "#343434", 
       "textColor": "white",
-      "image": pandas
+      "image": pandas,
+      "docs": "https://pandas.pydata.org/"
     },
     {
       "name": "Matplotlib", 
       "backgroundColor": "#11557c", 
       "textColor": "white",
-      "image": matplotlib
+      "image": matplotlib,
+      "docs": "https://matplotlib.org/"
     },
     {
       "name": "Robot Operating System", 
       "backgroundColor": "#71BBEA", 
       "textColor": "white",
-      "image": ros
+      "image": ros,
+      "docs": "https://www.ros.org/"
     },
 
   ]

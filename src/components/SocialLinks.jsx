@@ -7,7 +7,28 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
     return ( 
         <div className="btn-wrapper text-lg">
-            <Button
+
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="github"
+                  href={socialLinks.github}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-github" />
+                  </span>
+                </Button>
+                <Button
+                  className="btn-icon-only rounded-circle ml-1"
+                  color="twitter"
+                  href={socialLinks.linkedin}
+                  target="_blank"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-linkedin" />
+                  </span>
+                </Button>
+                <Button
                   className="btn-icon-only rounded-circle"
                   color="success"
                   href={socialLinks.email}
@@ -35,26 +56,6 @@ const SocialLinks = () => {
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-instagram" />
-                  </span>
-                </Button>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="github"
-                  href={socialLinks.github}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
-                  </span>
-                </Button>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="twitter"
-                  href={socialLinks.linkedin}
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-linkedin" />
                   </span>
                 </Button>
         </div>

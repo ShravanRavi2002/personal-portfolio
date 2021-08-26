@@ -18,7 +18,7 @@ export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
 	description:
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, and robotics. I am entering my sophmore year and am excited for the opprtunities to come! Feel free to reach out for a chat anytime.",
 	resumeLink: "",
 };
 
@@ -101,7 +101,7 @@ export const blogSection = {
 	  {
 		url: null,
 		title: "Near Real Time Involuntary Human Behavior Decoding for Robot Hallway Navigation",
-		description: "TBD",
+		description: "Shreyas Satewar, Shravan Ravi, Alekhya Kuchimanchi, Justin Hart, and Peter Stone",
 		conference: "ACM/IEEE International Conference on Human-Robot Interaction",
 		submission: "October 1, 2021",
 	  },
@@ -142,10 +142,10 @@ export const experience = [
 		company: "ReView",
 		companylogo: review,
 		date: "September 2020 – Present",
-		desc: "Lead team of 4 engineers and 1 designer in Austin-based start-up focused on reducing the contamination of recyling through the application of computer vision in mobile apps",
+		desc: "Led team of 4 engineers and 1 designer in Austin-based start-up focused on reducing the contamination of recyling through the application of computer vision in mobile apps",
 		descBullets: [
 			"Developed mobile app in Javascript/Typescript and Python using React-Native, Firebase, and Tensorflow (previously PyTorch, but modified for easier tech stack integration)",
-			"Built Convolution Neural Network in PyTorch using Stanford’s Recyclable dataset which contains 1000 images (very clean and unbalanced) that reached 68% validation accuracy,then used transfer learning using MobileNet to reach 85% validation accuracy. Currently expanding model capabilities using Amazon Sagemaker",
+			"Built convolution neural network (CNN) in PyTorch using Stanford’s Recyclable dataset which contains 1000 images (very clean and unbalanced) that reached 68% validation accuracy,then used transfer learning using MobileNet to reach 85% validation accuracy. Currently expanding model capabilities using Amazon Sagemaker",
 		],
 		link: "https://www.reviewtechnology.ai/"
 	},
@@ -185,7 +185,7 @@ export const experience = [
 		desc: "Researching deep learning applications for articulation-to-speech synthesis and neural activity decoding to develop more advanced silent speech interfaces under the supervision of Professor Jun Wang at UT Austin",
 		descBullets: [
 			"Trained support vector machine (SVM), deep neural network (DNN), and convolutional neural network (CNN) for near real time decoding of articulatory data to demonstrate the efficacy of new wearable electromagnetic articulograph (EMA) system",
-			"Authored paper regarding promising model results (SVM: 90.85%, DNN: 88.00%, and CNN: 90.13% cross validation accuracies) and submitted to 2022 Motor Speech Conference",
+			"Authored paper regarding promising model results (SVM: 90.85%, DNN: 88.00%, and CNN: 90.13% cross validation accuracies) and submitted to Madonna Rehabilitation Hospitals 2022 Motor Speech Conference",
 		],
 		link: "https://slhs.utexas.edu/research/wang-lab/home"
 	},
@@ -198,8 +198,8 @@ export const experience = [
 		date: "January 2020 – Present",
 		desc: "Researching dynamic robot navigation parameter configuration under Dr. Xuesu Xiao and human behavior decoding for robot navigation to better human-robot interaction under Professor Justin Hart at UT Austin",
 		descBullets: [
-			"Developed CNN-DNN model to decode RGB camera and lidar data for adaptive planner parameter learning (APPL). Co-authoring paper for submission to IEEE International Conference on Robotics and Automation (ICRA)",
-			"Configuring system of Azure Kinect cameras to extract person joint movement in hallway and developing auto-encoder to extract and interpret implicit human actions. Co-authoring paper for submission to ACM/IEEE International Conference on Human-Robot Interaction",
+			"Developed convolutional neural network - deep neural network (CNN-DNN) model to decode RGB camera and lidar data for adaptive planner parameter learning (APPL). Co-authoring paper for submission to IEEE International Conference on Robotics and Automation (ICRA)",
+			"Configuring system of Azure Kinect cameras to extract person joint movement in hallway and developing auto-encoder to extract and interpret implicit human actions. Co-authoring paper for submission to ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
 		],
 		link: "https://www.cs.utexas.edu/~larg/index.php/Learning_Agents_Research_Group"
 	}, 
@@ -214,6 +214,7 @@ export const experience = [
 			"Built hackathon guide for beginner coders with boilerplate projects for a variety of languages and frameworks",
 			"Developed chat application for HackTX hackathon website with Javascript, HTML, and CSS using React, MongoDB and socket.io",
 		],
+		link: "https://freetailhackers.com/"
 	},
 	{
 		role: "Full-Stack Developer",
@@ -226,6 +227,7 @@ export const experience = [
 			"Researched stock and cryptocurrency market trends under the mentorship of graduates supervisor from RBC Capital Markets",
 			"Created visuals to support findings Nivo using Javascript and React",
 		],
+		link: "https://www.chartfleau.com/"
 	},
 
 	{
@@ -238,25 +240,26 @@ export const experience = [
 			"Expanded business to incorporate college admissions and emphasize mission of supporting underprivileged students in the greater Austin area",
 			"Employed and managed 2 tutors. Aproximately $10,000 in annual recurring revenue  ",
 		],
+		link: "https://www.geniustestprepatx.com/"
 	},
 ];
 
 export const projects = [
 	{
 		name: "Unmasking-Congress",
-		demo: "example.com"
+		demo: null
 	},
 	{
-		name: "personal-portfolio",
-		demo: "example.com"
+		name: "Personal-Portfolio",
+		demo: null
 	},
 	{
-		name: "WinterHacklympics-2020",
-		demo: "https://www.youtube.com/watch?v=d-fTVRaD4ns"
-	},
-	{
-		name: "Hackbrown-2021",
+		name: "Food-Scrapes",
 		demo: "https://www.youtube.com/watch?v=qVqoN-nQntw"
+	},
+	{
+		name: "Planedemic",
+		demo: "https://www.youtube.com/watch?v=d-fTVRaD4ns"
 	}
 ];
 

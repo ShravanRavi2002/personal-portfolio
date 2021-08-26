@@ -323,6 +323,36 @@ const Navigation = () => {
                           About Me
                       </Link>
                 </li>  
+
+                <li className="nav-item" >
+                    <Link
+                          href="#experience"
+                          to="experience"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          >
+                           <i className="fa fa-briefcase" style={{marginRight: "7px"}}/>
+                          Experience
+                      </Link>
+                </li>  
+ 
+                <li className="nav-item" >
+                    <Link
+                          href="#projects"
+                          to="projects"
+                          activeClass="active"
+                          className="nav-link"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                          >
+                          <i className="ni ni-archive-2" style={{marginRight: "7px"}}/>
+                          Projects
+                      </Link>
+                </li>  
                 <li className="nav-item" >
                     <Link
                           href="#skills"
@@ -339,20 +369,6 @@ const Navigation = () => {
                 </li>  
                 <li className="nav-item" >
                     <Link
-                          href="#experience"
-                          to="experience"
-                          activeClass="active"
-                          className="nav-link"
-                          spy={true}
-                          smooth={true}
-                          duration={500}
-                          >
-                           <i className="fa fa-briefcase" style={{marginRight: "7px"}}/>
-                          Experience
-                      </Link>
-                </li>  
-                <li className="nav-item" >
-                    <Link
                           href="#publications"
                           to="publications"
                           activeClass="active"
@@ -364,21 +380,8 @@ const Navigation = () => {
                           <i className="ni ni-books" style={{marginRight: "7px"}}/>
                           Publications
                       </Link>
-                </li>  
-                <li className="nav-item" >
-                    <Link
-                          href="#projects"
-                          to="projects"
-                          activeClass="active"
-                          className="nav-link"
-                          spy={true}
-                          smooth={true}
-                          duration={500}
-                          >
-                          <i className="ni ni-archive-2" style={{marginRight: "7px"}}/>
-                          Projects
-                      </Link>
-                </li>  
+                </li> 
+
                 </Nav>
                 
                 {/* <Nav className="align-items-lg-center ml-lg-auto" navbar>

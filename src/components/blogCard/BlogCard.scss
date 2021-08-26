@@ -33,7 +33,7 @@
 .blog-conference {
   color: $blogCardTitleColor;
   font-size: 10px;
-  padding-top: 15px;
+  padding-top: 5px;
   justify-self: flex-end;
   text-align: center;
 }
@@ -51,6 +51,8 @@
   justify-content: center; 
   margin: auto;
   background-color: $blogCardTitleColor; 
+  border: none;
+  height: 1px;
 }
 
 .blog-description {

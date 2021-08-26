@@ -11,7 +11,7 @@ export default function Blogs() {
     return null;
   }
   return (
-    <div style={{backgroundColor: "#11CDEF"}} id="publications">
+    <div  id="publications" style={{paddingTop: 25}}>
             <Container >
             <div className="d-flex px-3" style={{paddingBottom: "20px"}}>
                     <div>
@@ -20,7 +20,7 @@ export default function Blogs() {
                         </div>
                     </div>
                     <div className="pl-4">
-                    <h4 className="display-3" style={{color: "white"}}>Publications</h4>
+                    <h4 className="display-3" style={{color: "#11CDEF"}}>Publications</h4>
                     </div>
               </div>
         <Fade bottom duration={1000} distance="20px">
