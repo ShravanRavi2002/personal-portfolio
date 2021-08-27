@@ -1,6 +1,6 @@
 {
 	"homepage": "http://shravanravi2002.github.io/Personal-Portfolio",
-	"name": "personal-portfolio",
+	"name": "Personal-Portfolio",
 	"version": "0.1.0",
 	"dependencies": {
 		"@apollo/client": "^3.3.21",
