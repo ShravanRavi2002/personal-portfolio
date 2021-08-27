@@ -1,2 +1,0 @@
-(this["webpackJsonppersonal-portfolio"]=this["webpackJsonppersonal-portfolio"]||[]).push([[45],{660:function(t,e,o){"use strict";function s(t){t.languages.git={comment:/^#.*/m,deleted:/^[-\u2013].*/m,inserted:/^\+.*/m,string:/("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,command:{pattern:/^.*\$ git .*$/m,inside:{parameter:/\s--?\w+/m}},coord:/^@@.*@@$/m,commit_sha1:/^commit \w{40}$/m}}t.exports=s,s.displayName="git",s.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_git.8953c0ce.chunk.js.map
