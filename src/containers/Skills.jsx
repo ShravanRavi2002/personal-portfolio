@@ -24,7 +24,6 @@ import { skillsSection } from "../portfolio";
 
 const Skills = () => {
     return ( 
-                <Fade left duration={1000} distance="40px">
                 
                 <Container className="text-center my-5 section section-lg" style={{paddingBottom: 0, marginBottom: 0, paddingTop: 0, marginTop: 0}} id="about">
                 <div className="d-flex px-4">
@@ -61,7 +60,6 @@ const Skills = () => {
 
                 </Row>
                 </Container>
-            </Fade>
         
      );
 }

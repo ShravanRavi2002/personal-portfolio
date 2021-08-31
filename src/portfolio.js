@@ -129,6 +129,7 @@ export const experience = [
 		role: "Software Engineering Intern",
 		company: "Fidelity",
 		companylogo: fidelity,
+		color: "#76A923 ",
 		date: "June 2021 – August 2021",
 		desc: "Developed machine learning algorithm to recommend a suite of Fidelity apps based on customer interaction data and augmented the Fidelity market quote UI/UX",
 		descBullets: [
