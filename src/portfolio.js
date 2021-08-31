@@ -1,12 +1,13 @@
 import emoji from "react-easy-emoji";
 
+
 import fidelity from "./assets/img/icons/common/Fidelity.png";
 import review from "./assets/img/icons/common/Review.png";
 import alois from "./assets/img/icons/common/Alois.png";
 import moody from "./assets/img/icons/common/Wang.png"
 import larg from "./assets/img/icons/common/LARG.png"
 import freetail from "./assets/img/icons/common/Freetail.png"
-import chartfleau from "./assets/img/icons/common/chartfleau.png"
+import chartfleau from "./assets/img/icons/common/chartfleau.jpg"
 import GTP from "./assets/img/icons/common/GTP.png"
 import openPHR from "./assets/img/icons/common/openphr.png"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
