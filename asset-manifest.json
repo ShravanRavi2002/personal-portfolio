@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.01ac0d2a.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.4d96c0fb.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.4d96c0fb.chunk.js.map",
+    "main.js": "/personal-portfolio/static/js/main.1bb62172.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.1bb62172.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.js": "/personal-portfolio/static/js/react-syntax-highlighter_languages_refractor_abap.ba1241cf.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js.map": "/personal-portfolio/static/js/react-syntax-highlighter_languages_refractor_abap.ba1241cf.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/personal-portfolio/static/js/react-syntax-highlighter_languages_refractor_actionscript.c6dd6182.chunk.js",
@@ -328,6 +328,7 @@
     "static/media/IEEE_CHASE.cad72383.pdf": "/personal-portfolio/static/media/IEEE_CHASE.cad72383.pdf",
     "static/media/LARG.d1d9bfab.png": "/personal-portfolio/static/media/LARG.d1d9bfab.png",
     "static/media/Matplotlib.1f3cb363.png": "/personal-portfolio/static/media/Matplotlib.1f3cb363.png",
+    "static/media/Motor_Speech.6fc46c62.pdf": "/personal-portfolio/static/media/Motor_Speech.6fc46c62.pdf",
     "static/media/Node.dc7b6dc9.png": "/personal-portfolio/static/media/Node.dc7b6dc9.png",
     "static/media/Numpy.5523b305.png": "/personal-portfolio/static/media/Numpy.5523b305.png",
     "static/media/PyTorch.2aaa7627.png": "/personal-portfolio/static/media/PyTorch.2aaa7627.png",
@@ -338,14 +339,11 @@
     "static/media/Tensorflow.5743c8d5.png": "/personal-portfolio/static/media/Tensorflow.5743c8d5.png",
     "static/media/Unoffical Transcript.64caa229.pdf": "/personal-portfolio/static/media/Unoffical Transcript.64caa229.pdf",
     "static/media/Wang.409ec7fd.png": "/personal-portfolio/static/media/Wang.409ec7fd.png",
-    "static/media/airbnbLogo.e8497507.png": "/personal-portfolio/static/media/airbnbLogo.e8497507.png",
-    "static/media/chartfleau.29795a39.png": "/personal-portfolio/static/media/chartfleau.29795a39.png",
+    "static/media/chartfleau.5d8c27cc.png": "/personal-portfolio/static/media/chartfleau.5d8c27cc.png",
     "static/media/font-awesome.min.css": "/personal-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/github.6c955556.svg": "/personal-portfolio/static/media/github.6c955556.svg",
-    "static/media/google.eae9aa93.svg": "/personal-portfolio/static/media/google.eae9aa93.svg",
     "static/media/nucleo.css": "/personal-portfolio/static/media/nucleo-icons.d6a66724.ttf",
     "static/media/openphr.a3eaf34f.png": "/personal-portfolio/static/media/openphr.a3eaf34f.png",
-    "static/media/profile_pic_1.e6f29b65.png": "/personal-portfolio/static/media/profile_pic_1.e6f29b65.png",
+    "static/media/profile_pic_1.fa2e108b.png": "/personal-portfolio/static/media/profile_pic_1.fa2e108b.png",
     "static/media/pushpin.61d83089.png": "/personal-portfolio/static/media/pushpin.61d83089.png",
     "static/media/utLogo.png": "/personal-portfolio/static/media/utLogo.f42ebc26.png"
   },
@@ -354,6 +352,6 @@
     "static/css/153.30fd9f85.chunk.css",
     "static/js/153.3a4a7c08.chunk.js",
     "static/css/main.01ac0d2a.chunk.css",
-    "static/js/main.4d96c0fb.chunk.js"
+    "static/js/main.1bb62172.chunk.js"
   ]
 }
