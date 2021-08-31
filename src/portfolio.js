@@ -1,15 +1,15 @@
 import emoji from "react-easy-emoji";
 
 
-import fidelity from "./assets/img/icons/common/Fidelity.png";
-import review from "./assets/img/icons/common/Review.png";
-import alois from "./assets/img/icons/common/Alois.png";
-import moody from "./assets/img/icons/common/Wang.png"
-import larg from "./assets/img/icons/common/LARG.png"
-import freetail from "./assets/img/icons/common/Freetail.png"
+import fidelity from "./assets/img/icons/common/Fidelity.jpg";
+import review from "./assets/img/icons/common/Review.jpg";
+import alois from "./assets/img/icons/common/Alois.jpg";
+import moody from "./assets/img/icons/common/Wang.jpg"
+import larg from "./assets/img/icons/common/LARG.jpg"
+import freetail from "./assets/img/icons/common/Freetail.jpg"
 import chartfleau from "./assets/img/icons/common/chartfleau.jpg"
-import GTP from "./assets/img/icons/common/GTP.png"
-import openPHR from "./assets/img/icons/common/openphr.png"
+import GTP from "./assets/img/icons/common/GTP.jpg"
+import openPHR from "./assets/img/icons/common/openphr.jpg"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
 import MOTOR from "./assets/papers/Motor_Speech.pdf"
 import RESUME from "./assets/Shravan_Ravi_Resume.pdf"

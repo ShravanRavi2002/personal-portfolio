@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { css } from "@emotion/core";
 import siteConfig from "./site-config";
-import profilePic from "../../assets/profile_pic_1.png"
+import profilePic from "../../assets/profile_pic_1.jpg"
 import { motion } from "framer-motion";
 import pushpin from "../../assets/pushpin.png"
 
