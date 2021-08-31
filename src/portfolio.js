@@ -1,8 +1,5 @@
 import emoji from "react-easy-emoji";
 
-import googlelogo from "./assets/img/icons/common/google.svg";
-import github from "./assets/img/icons/common/github.svg";
-import airbnb from "./assets/img/icons/common/airbnbLogo.png";
 import fidelity from "./assets/img/icons/common/Fidelity.png";
 import review from "./assets/img/icons/common/Review.png";
 import alois from "./assets/img/icons/common/Alois.png";
@@ -13,13 +10,15 @@ import chartfleau from "./assets/img/icons/common/chartfleau.png"
 import GTP from "./assets/img/icons/common/GTP.png"
 import openPHR from "./assets/img/icons/common/openphr.png"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
+import MOTOR from "./assets/papers/Motor_Speech.pdf"
+import RESUME from "./assets/Shravan_Ravi_Resume.pdf"
 import transcript from "./assets/Unoffical Transcript.pdf"
 export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
 	description:
 		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, and robotics. I am entering my sophmore year and am excited for the opprtunities to come! Feel free to reach out for a chat anytime.",
-	resumeLink: "",
+	resumeLink: RESUME,
 };
 
 export const openSource = {
@@ -85,7 +84,7 @@ export const blogSection = {
 		submission: "July 16, 2021",
 	  },
 	  {
-		url: "",
+		url: MOTOR,
 		title: "A Wearable Electromagnetic Articulograph (EMA) for Silent Speech Interface",
 		description: "Shravan Ravi, Beiming Cao, Nordine Sebkhi, Arpan Bhavsar, Omer T. Inan, and Jun Wang", 
 		conference: "Madonna Motor Speech Conference ",
