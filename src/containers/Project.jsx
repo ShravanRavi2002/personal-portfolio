@@ -58,7 +58,10 @@ const Project = ({ heading, username, length, specfic }) => {
   var leftCol = [0, 2]
   var rightCol = [1, 3]
   return (
-      <Container className="" id="projects" style={{marginTop: -110}}>
+    <section style = {{backgroundColor: "#11CDEF"}}>
+
+    
+      <Container className="" id="projects" style={{marginTop: -110, }}>
         <div className="d-flex p-4" >
             <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -66,7 +69,7 @@ const Project = ({ heading, username, length, specfic }) => {
                         </div>
                     </div>
                     <div className="pl-4">
-                        <h4 className="display-3 text-info">Projects</h4>
+                        <h4 className="display-3 text-white">Projects</h4>
                     </div>
                 </div>
             <div style={{display: "flex", justifyContent: "center"}}>
@@ -120,6 +123,7 @@ const Project = ({ heading, username, length, specfic }) => {
         </div>
         
       </Container>
+      </section>
   );
 };
 

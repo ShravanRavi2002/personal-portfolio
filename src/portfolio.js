@@ -31,7 +31,7 @@ export const contact = {};
 export const socialLinks = {
 	facebook: "https://www.facebook.com/shravan.ravi.16547/",
 	instagram: "https://www.instagram.com/shravan_ravi2002/",
-	email: "mailto:ravi.shravan@gmail.com",
+	email: "mailto:shravan.ravi@utexas.edu",
 	github: "https://github.com/ShravanRavi2002",
 	linkedin: "https://linkedin.com/in/shravan-ravi",
 };
@@ -64,7 +64,7 @@ export const educationInfo = {
 		subHeader: "Bachelor of Science in Computer Science",
 		duration: "August 2020 - May 2024",
 		desc: "GPA: 4.00", 
-		coursework: "Data Structures, Computer Architecture, Operating Systems, Linear Algebra, Probability and Statstics, Discrete Math, Multivariable Caculus",
+		coursework: "Operating Systems, Computer Architecture, Data Structures, Linear Algebra, Intro to Probability and Statistics, Discrete Mathematics, Multivariable Calculus",
 		transcript: transcript,
 	  }
 	]
@@ -96,7 +96,7 @@ export const blogSection = {
 		title: "CV-APPLD: Computer Vision based Adaptive Planner Parameter Learning from Demonstration",
 		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, and Peter Stone",
 		conference: "IEEE International Conference on Robotics and Automation",
-		submission: "September 16, 2021",
+		submission: "September 14, 2021",
 	  },
 	  {
 		url: null,
@@ -127,7 +127,7 @@ export const SkillBars = [
 export const experience = [
 	{
 		role: "Software Engineering Intern",
-		company: "Fidelity",
+		company: "Fidelity Investments",
 		companylogo: fidelity,
 		color: "#76A923 ",
 		date: "June 2021 – August 2021",

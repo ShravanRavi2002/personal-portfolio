@@ -37,7 +37,7 @@ const ExperienceCard = ({data}) => {
         <Fade left duration={1000} distance="20px">
             <Card style={{position: "relative", flexBasis: "auto", top: "100%", marginBottom: "2rem"}} className="shadow-lg--hover shadow border-0 text-center rounded">
                 <CardHeader style={{background: data.color === undefined ? rgb(colorArrays)  : colorArrays, marginBottom: 0}} >
-                    <h5 className="text-white">{data.company}</h5>
+                    <h5 className="text-white" style={{fontWeight: 520}}>{data.company}</h5>
                 </CardHeader>
                 <CardBody className="py-5">
                     <a href={data.link} target="_blank" rel="noopener noreferrer" style={{width: "max-content", height: "max-content"}}>

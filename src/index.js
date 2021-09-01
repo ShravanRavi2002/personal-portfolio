@@ -27,6 +27,7 @@ ReactDOM.render(
 		<Skills />
 		{/* <Proficiency /> */}
 		{/* <Education /> */}
+		<IconBubbles/>
 		<Experience />
 		<Project
           heading={"Hackathon Projects"}
@@ -35,7 +36,7 @@ ReactDOM.render(
           specfic={[]}
         />
 		{/* <Feedbacks /> */}
-		<IconBubbles/>
+		
 		<Publications />
 		<GithubProfile />
 	</>,

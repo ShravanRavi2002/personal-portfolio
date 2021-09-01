@@ -29,7 +29,7 @@ const siteConfig = {
         base: "#0e76a8;"
       },
       {
-        url: "mailto:ravi.shravan@gmail.com",
+        url: "mailto:shravan.ravi@utexas.edu",
         label: "Email Account",
         type: "green",
         icon: <FaEnvelope />,
