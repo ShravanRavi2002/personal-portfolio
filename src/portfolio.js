@@ -247,19 +247,19 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "Unmasking-Congress",
+		name: "unmasking-congress",
 		demo: null
 	},
 	{
-		name: "Personal-Portfolio",
+		name: "personal-portfolio",
 		demo: null
 	},
 	{
-		name: "Food-Scrapes",
+		name: "food-scrapes",
 		demo: "https://www.youtube.com/watch?v=qVqoN-nQntw"
 	},
 	{
-		name: "Planedemic",
+		name: "planedemic",
 		demo: "https://www.youtube.com/watch?v=d-fTVRaD4ns"
 	}
 ];
