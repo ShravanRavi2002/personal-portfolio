@@ -18,7 +18,7 @@ export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
 	description:
-		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, and robotics. I am entering my sophmore year and am excited for the opprtunities to come! Feel free to reach out for a chat anytime.",
+		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, and robotics. I am entering my sophmore year and am excited for the opprtunities to come! ",
 	resumeLink: RESUME,
 };
 
