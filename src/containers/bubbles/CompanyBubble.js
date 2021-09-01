@@ -3,7 +3,7 @@ import "./Bubbles.css"
 export default function CompanyBubble(props) {
   // console.log(props);
   return (
-    <div onClick={() => window.open(props.docs)}
+    <div 
       style={{
         backgroundColor: props.backgroundColor + "d0",
       }}
