@@ -151,7 +151,7 @@ export const experience = [
 		link: "https://www.reviewtechnology.ai/"
 	},
 	{
-		role: "Chief Technical Officer",
+		role: "Co-Founder & Lead Developer",
 		company: "Alois Software",
 		companylogo: alois,
 		date: "March 2020 - Present",
@@ -196,7 +196,7 @@ export const experience = [
 		company: "Learning Agents Research Group",
 		color: "#454545",
 		companylogo: larg,
-		date: "January 2020 – Present",
+		date: "January 2021 – Present",
 		desc: "Researching dynamic robot navigation parameter configuration under Dr. Xuesu Xiao and human behavior decoding for robot navigation to better human-robot interaction under Professor Justin Hart at UT Austin",
 		descBullets: [
 			"Developed convolutional neural network - deep neural network (CNN-DNN) model to decode RGB camera and lidar data for adaptive planner parameter learning (APPL). Co-authoring paper for submission to IEEE International Conference on Robotics and Automation (ICRA)",
@@ -209,7 +209,7 @@ export const experience = [
 		company: "Freetail Hackers",
 		color: "#511FAE",
 		companylogo: freetail,
-		date: "January 2020 – Present",
+		date: "January 2021 – Present",
 		desc: "Member of UT Austin hackathon organizer team, responsible for development",
 		descBullets: [
 			"Built hackathon guide for beginner coders with boilerplate projects for a variety of languages and frameworks",
