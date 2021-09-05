@@ -140,9 +140,9 @@ export const experience = [
 	},
 	{
 		role: "Technical Project Manager",
-		company: "ReView",
+		company: "ReView Technology",
 		companylogo: review,
-		date: "September 2020 – Present",
+		date: "September 2020 – September 2021",
 		desc: "Led team of 4 engineers and 1 designer in Austin-based start-up focused on reducing the contamination of recyling through the application of computer vision in mobile apps",
 		descBullets: [
 			"Developed mobile app in Javascript/Typescript and Python using React-Native, Firebase, and Tensorflow (previously PyTorch, but modified for easier tech stack integration)",
@@ -167,7 +167,7 @@ export const experience = [
 		role: "Engineering Fellow",
 		company: "OpenPHR",
 		companylogo: openPHR,
-		date: "June 2021 – Present",
+		date: "June 2021 – September 2021",
 		desc: "Researched and developed deep learning algorithms to empower patients to be well-informed of potential treatment options for non-profit under the mentorship of Johns Hopkins professor and Facebook strategic investment analyst",
 		descBullets: [
 			"Developed proprietary sentiment analysis algorithm and k-means clustering models to cohort breast cancer patient social media data",
