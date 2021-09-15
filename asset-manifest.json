@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fd0793bd.chunk.css",
-    "main.js": "/static/js/main.e629ec4a.chunk.js",
-    "main.js.map": "/static/js/main.e629ec4a.chunk.js.map",
+    "main.js": "/static/js/main.036f7731.chunk.js",
+    "main.js.map": "/static/js/main.036f7731.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.ba1241cf.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.ba1241cf.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/static/js/react-syntax-highlighter_languages_refractor_actionscript.c6dd6182.chunk.js",
@@ -335,7 +335,7 @@
     "static/media/PyTorch.2aaa7627.png": "/static/media/PyTorch.2aaa7627.png",
     "static/media/React.396536ce.png": "/static/media/React.396536ce.png",
     "static/media/Scikit.117d973c.png": "/static/media/Scikit.117d973c.png",
-    "static/media/Shravan_Ravi_Resume.fbaed413.pdf": "/static/media/Shravan_Ravi_Resume.fbaed413.pdf",
+    "static/media/Shravan_Ravi_Resume.9087333b.pdf": "/static/media/Shravan_Ravi_Resume.9087333b.pdf",
     "static/media/Tensorflow.5743c8d5.png": "/static/media/Tensorflow.5743c8d5.png",
     "static/media/Unoffical Transcript.64caa229.pdf": "/static/media/Unoffical Transcript.64caa229.pdf",
     "static/media/Wang.a1b3afac.jpg": "/static/media/Wang.a1b3afac.jpg",
@@ -352,6 +352,6 @@
     "static/css/153.30fd9f85.chunk.css",
     "static/js/153.aa79d657.chunk.js",
     "static/css/main.fd0793bd.chunk.css",
-    "static/js/main.e629ec4a.chunk.js"
+    "static/js/main.036f7731.chunk.js"
   ]
 }
