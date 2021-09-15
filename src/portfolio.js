@@ -12,6 +12,7 @@ import GTP from "./assets/img/icons/common/GTP.jpg"
 import openPHR from "./assets/img/icons/common/openphr.jpg"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
 import MOTOR from "./assets/papers/Motor_Speech.pdf"
+import ICRA from "./assets/papers/ICRA2022.pdf"
 import RESUME from "./assets/Shravan_Ravi_Resume.pdf"
 import transcript from "./assets/Unoffical Transcript.pdf"
 export const greetings = {
@@ -92,9 +93,9 @@ export const blogSection = {
 		submission: "August 31, 2021",
 	  },
 	  {
-		url: null,
-		title: "CV-APPLD: Computer Vision based Adaptive Planner Parameter Learning from Demonstration",
-		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, and Peter Stone",
+		url: ICRA,
+		title: "Visually Adaptive Geometric Navigation",
+		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, Garrett Warnell, Joydeep Biswas, and Peter Stone",
 		conference: "IEEE International Conference on Robotics and Automation",
 		submission: "September 14, 2021",
 	  },
