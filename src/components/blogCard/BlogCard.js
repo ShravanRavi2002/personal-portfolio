@@ -22,6 +22,23 @@ function BoldedText( text, shouldBeBold, isDark ) {
 );
 }
 
+function whiteout( text, shouldBeBlack, isDark ) {
+  const textArray = text.split(shouldBeBold);
+  console.log(isDark)
+  return (
+    <h3 className={"blog-description"}>
+      {textArray.map((item, index) => (
+        <>
+          {item}
+          {index !== textArray.length - 1 && (
+            <b>{shouldBeBold}</b>
+          )}
+        </>
+      ))}
+    </h3>
+);
+}
+
 export default function BlogCard({blog, isDark}) {
   isDark=false;
   function openUrlInNewTab(url) {
@@ -40,18 +57,17 @@ export default function BlogCard({blog, isDark}) {
                 isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"
               }
             >
-                <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
+                <h3 className={blog.finished ? "blog-title" : "blog-upcoming-title"}>
                   {blog.title}
                 </h3>
               {console.log(isDark)}
               {BoldedText(blog.description, blogSection.name, isDark)}
               {blog.finished ? null :  
               <div className="blog-construction">
-                  <GreetingLottie animationData={construction}  style={{maxWidth: "100%", maxHeight: "100%"}}/>
+                  <GreetingLottie animationData={construction} />
               </div>
               
               }
-              {/* <hr className="line"></hr> */}
               <h3 className="blog-conference">{blog.conference}</h3>
               {
                 blog.finished ? <h3 className="blog-submission">{`Submitted on: ${blog.submission}`}</h3> : <h3 className="blog-submission">{`Submitting on: ${blog.submission}`}</h3>    

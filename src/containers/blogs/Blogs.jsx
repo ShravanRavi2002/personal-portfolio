@@ -12,7 +12,7 @@ export default function Blogs() {
   }
   return (
     <div  id="publications" style={{paddingTop: 25}}>
-            <Container >
+            <Container style={{justifyContent: "center"}}>
             <div className="d-flex px-3" style={{paddingBottom: "20px"}}>
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -23,7 +23,6 @@ export default function Blogs() {
                     <h4 className="display-3" style={{color: "#11CDEF"}}>Publications</h4>
                     </div>
               </div>
-        <Fade bottom duration={1000} distance="20px">
 
               <Row style={{justifyContent: "center", margin: "center"}}>
                 <div className="main" id="blogs">
@@ -31,7 +30,7 @@ export default function Blogs() {
                   </div>
                   <div className="blog-main-div">
                     <div className="blog-text-div">
-                      {blogSection.blogs.map((blog, i) => {
+                      {blogSection.finished.map((blog, i) => {
                         return (
                           <BlogCard
                             key={i}
@@ -52,9 +51,35 @@ export default function Blogs() {
                   </div>
                 </div>
               </Row>
-              
-            </Fade>
-      </Container>
+              <hr style={{borderColor: "black", marginBottom: 30, }}></hr>
+              <Row style={{justifyContent: "center", margin: "center"}}>
+                <div className="main" id="blogs">
+                  <div className="blog-header">
+                  </div>
+                  <div className="blog-main-div">
+                    <div className="blog-text-div">
+                      {blogSection.upcoming.map((blog, i) => {
+                        return (
+                          <BlogCard
+                            key={i}
+                            // isDark={isDark}
+                            blog={{
+                              url: blog.url,
+                              image: blog.image,
+                              title: blog.title,
+                              description: blog.description,
+                              conference: blog.conference,
+                              submission: blog.submission,
+                              finished: blog.url != null
+                            }}
+                          />
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </Row>
+          </Container>
     </div>
     
     

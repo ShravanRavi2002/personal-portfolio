@@ -12,7 +12,7 @@ import GTP from "./assets/img/icons/common/GTP.jpg"
 import openPHR from "./assets/img/icons/common/openphr.jpg"
 import CHASE from "./assets/papers/IEEE_CHASE.pdf"
 import MOTOR from "./assets/papers/Motor_Speech.pdf"
-import ICRA from "./assets/papers/ICRA2022.pdf"
+import ICRA from "./assets/papers/ICRA_2022.pdf"
 import RESUME from "./assets/Shravan_Ravi_Resume.pdf"
 import transcript from "./assets/Unoffical Transcript.pdf"
 export const greetings = {
@@ -77,7 +77,7 @@ export const blogSection = {
 	subtitle:
 	  "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   
-	blogs: [
+	finished: [
 	  {
 		url: CHASE,
 		title: "Crowdsourcing Personalized Medicine: Applying Machine Learning to Unstructured Social Media Data to Improve Breast Cancer Patient Outcomes",
@@ -99,14 +99,28 @@ export const blogSection = {
 		conference: "IEEE International Conference on Robotics and Automation",
 		submission: "September 14, 2021",
 	  },
-	  {
-		url: null,
-		title: "Near Real Time Involuntary Human Behavior Decoding for Robot Hallway Navigation",
-		description: "Shreyas Satewar, Shravan Ravi, Alekhya Kuchimanchi, Justin Hart, and Peter Stone",
-		conference: "ACM/IEEE International Conference on Human-Robot Interaction",
-		submission: "October 1, 2021",
-	  },
+
 	],
+  upcoming: [
+    {
+      url: null,
+      title: "Near Real Time Involuntary Human Behavior Decoding for Robot Hallway Navigation",
+      description: "Shreyas Satewar, Shravan Ravi, Alekhya Kuchimanchi, Justin Hart, and Peter Stone",
+      conference: "IEEE International Conference on Robot & Human Interactive Communication",
+      submission: "March 25, 2022 (Timeline extended)",
+    },
+    {
+      url: null,
+      title: "Deep Inverse Reinforcement Learning for Robot Local Cost Function Generation",
+      description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Kavan Sikand, Sadegh Rabiee, Joydeep Biswas, and Peter Stone",
+      conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      submission: "March 1, 2022",
+    },
+
+	],
+
+
+
 	display: true // Set false to hide this section, defaults to true
   };
 
@@ -161,7 +175,7 @@ export const experience = [
 			"Designing and developing mobile app along with necessary deep learning model using Figma, React-Native, and Tensorflow",
 			"Built and designed business website in Javascript using Next.js",
 		],
-		link: "https://aloissoftware.com/"
+		link: "https://aloissoftware.tech/"
 	},
 
 	{

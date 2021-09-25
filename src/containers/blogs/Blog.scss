@@ -27,10 +27,12 @@
 }
 .blog-main-div > * {
   flex: 1;
+  width: 100%;
   margin-bottom: 30px;
 }
 .blog-main-div {
   display: flex;
+  width: 100%;
 }
 .blog-image-div > img {
   max-width: 100%;
@@ -38,6 +40,7 @@
 }
 .blog-text-div {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 32px;
 }
@@ -67,4 +70,7 @@
   .blog-text-div {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
+}
+.main {
+  width: 100%;
 }

@@ -6,6 +6,7 @@
 
 .blog-container {
   border-radius: 10px;
+  // width: 500px; 
   color: $blogCardContainerColor;
   background-color: $lightBackground1;
   box-shadow: 0 0 36px $lightBoxShadow;
@@ -13,17 +14,38 @@
   height: max-content;
 }
 
+.blog-upcoming-title {
+  color: $blogCardTitleColor;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+  // width: max-c;
+  padding-right: 0;
+  margin-bottom: 14px;
+  margin-top: 32px;
+  height: 100px;
+  // width: 430px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
 .blog-title {
   color: $blogCardTitleColor;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 0px;
+  padding-right: 0;
   margin-bottom: 14px;
   margin-top: 32px;
   height: 100px;
-  overflow: wrap;
+  // width: 430px;
+  overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
