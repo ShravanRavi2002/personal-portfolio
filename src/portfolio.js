@@ -98,7 +98,7 @@ export const blogSection = {
 		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, Garrett Warnell, Joydeep Biswas, and Peter Stone",
 		conference: "IEEE International Conference on Robotics and Automation",
 		submission: "September 14, 2021",
-	  },
+	  }
 
 	],
   upcoming: [
@@ -183,7 +183,7 @@ export const experience = [
 		company: "OpenPHR",
 		companylogo: openPHR,
 		date: "June 2021 – September 2021",
-		desc: "Researched and developed deep learning algorithms to empower patients to be well-informed of potential treatment options for non-profit under the mentorship of Johns Hopkins professor and Facebook strategic investment analyst",
+		desc: "Researched and developed deep learning algorithms to inform patients of potential treatment options for non-profit under the mentorship of Johns Hopkins professor and Facebook strategic investment analyst",
 		descBullets: [
 			"Developed proprietary sentiment analysis algorithm and k-means clustering models to cohort breast cancer patient social media data",
 			"Co-authored paper outlining preliminary algorithm efficacy - Submitted to IEEE/ACM Conference on Connected Health Applications, Systems, and Engineering Technologies (CHASE) 2021 - and co-authoring Emerson Health Collective research grant proposal",
