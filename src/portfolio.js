@@ -63,7 +63,7 @@ export const educationInfo = {
 		schoolName: "University of Texas at Austin",
 		logo: require("./assets/images/utLogo.png"),
 		subHeader: "Bachelor of Science in Computer Science",
-		duration: "August 2020 - May 2024",
+		duration: "August 2020 - May 2023",
 		desc: "GPA: 4.00", 
 		coursework: "Operating Systems, Computer Architecture, Data Structures, Linear Algebra, Intro to Probability and Statistics, Discrete Mathematics, Multivariable Calculus",
 		transcript: transcript,
