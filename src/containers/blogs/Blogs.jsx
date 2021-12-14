@@ -70,7 +70,8 @@ export default function Blogs() {
                               description: blog.description,
                               conference: blog.conference,
                               submission: blog.submission,
-                              finished: blog.url != null
+                              finished: blog.url != null,
+                              accepted: blog.accepted
                             }}
                           />
                         );

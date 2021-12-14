@@ -70,7 +70,11 @@ export default function BlogCard({blog, isDark}) {
               }
               <h3 className="blog-conference">{blog.conference}</h3>
               {
-                blog.finished ? <h3 className="blog-submission">{`Submitted on: ${blog.submission}`}</h3> : <h3 className="blog-submission">{`Submitting on: ${blog.submission}`}</h3>    
+                blog.finished ? 
+                  blog.accepted ?
+                  <h3 className="blog-submission">{`Accepted on: ${blog.submission}`}</h3>
+                    : <h3 className="blog-submission">{`Submitted on: ${blog.submission}`}</h3> 
+                : <h3 className="blog-submission">{`Submitting on: ${blog.submission}`}</h3>    
               }          
               
               

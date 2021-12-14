@@ -16,10 +16,8 @@ import ICRA from "./assets/papers/ICRA_2022.pdf"
 import RESUME from "./assets/Shravan_Ravi_Resume.pdf"
 import transcript from "./assets/Unoffical Transcript.pdf"
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
 	description:
-		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, and robotics. I am entering my sophmore year and am excited for the opprtunities to come! ",
+		"I'm a student, researcher, and entreprener at UT Austin, studying computer science. My interests lie in full-stack development, machine learning, healthcare, and robotics.",
 	resumeLink: RESUME,
 };
 
@@ -37,22 +35,6 @@ export const socialLinks = {
 	linkedin: "https://linkedin.com/in/shravan-ravi",
 };
 
-export const skillsSection = {
-	title: "What I do",
-	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-	skills: [
-		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-		),
-		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
-		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-		),
-	],
-}
 
 export const educationInfo = {
 	display: true, // Set false to hide this section, defaults to true
@@ -63,8 +45,8 @@ export const educationInfo = {
 		schoolName: "University of Texas at Austin",
 		logo: require("./assets/images/utLogo.png"),
 		subHeader: "Bachelor of Science in Computer Science",
-		duration: "August 2020 - May 2023",
-		desc: "GPA: 4.00", 
+		duration: "GPA: 4.00",
+		// desc: "GPA: 4.00", 
 		coursework: "Operating Systems, Computer Architecture, Data Structures, Linear Algebra, Intro to Probability and Statistics, Discrete Mathematics, Multivariable Calculus",
 		transcript: transcript,
 	  }
@@ -78,19 +60,21 @@ export const blogSection = {
 	  "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   
 	finished: [
-	  {
-		url: CHASE,
-		title: "Crowdsourcing Personalized Medicine: Applying Machine Learning to Unstructured Social Media Data to Improve Breast Cancer Patient Outcomes",
-		description: "Gregory Falco, Shravan Ravi, Modadeoluwa Ogunmuyiwa, and Caleb Li",
-		conference: "IEEE/ACM Conference on Connected Health Applications, Systems, and Engineering Technologies",
-		submission: "July 16, 2021",
-	  },
+	  // {
+		// url: CHASE,
+		// title: "Crowdsourcing Personalized Medicine: Applying Machine Learning to Unstructured Social Media Data to Improve Breast Cancer Patient Outcomes",
+		// description: "Gregory Falco, Shravan Ravi, Modadeoluwa Ogunmuyiwa, and Caleb Li",
+		// conference: "IEEE/ACM Conference on Connected Health Applications, Systems, and Engineering Technologies",
+		// submission: "July 16, 2021",
+    // accepted: false
+	  // },
 	  {
 		url: MOTOR,
 		title: "A Wearable Electromagnetic Articulograph (EMA) for Silent Speech Interface",
 		description: "Shravan Ravi, Beiming Cao, Nordine Sebkhi, Arpan Bhavsar, Omer T. Inan, and Jun Wang", 
-		conference: "Madonna Motor Speech Conference ",
-		submission: "August 31, 2021",
+		conference: "Signal Analytics for Motor Speech Workshop at the Conference for Motor Speech",
+		submission: "December 7, 2021",
+    accepted: true
 	  },
 	  {
 		url: ICRA,
@@ -98,17 +82,11 @@ export const blogSection = {
 		description: "Shravan Ravi, Shreyas Satewar, Gary Wang, Xuesu Xiao, Garrett Warnell, Joydeep Biswas, and Peter Stone",
 		conference: "IEEE International Conference on Robotics and Automation",
 		submission: "September 14, 2021",
+    accepted: false
 	  }
 
 	],
   upcoming: [
-    {
-      url: null,
-      title: "Near Real Time Involuntary Human Behavior Decoding for Robot Hallway Navigation",
-      description: "Shreyas Satewar, Shravan Ravi, Alekhya Kuchimanchi, Justin Hart, and Peter Stone",
-      conference: "IEEE International Conference on Robot & Human Interactive Communication",
-      submission: "March 25, 2022 (Timeline extended)",
-    },
     {
       url: null,
       title: "Deep Inverse Reinforcement Learning for Robot Local Cost Function Generation",
