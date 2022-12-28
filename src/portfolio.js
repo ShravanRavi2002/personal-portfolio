@@ -1,6 +1,7 @@
 import emoji from "react-easy-emoji";
 
-
+import citsec from "./assets/img/icons/common/citsec.jpg";
+import optiver from "./assets/img/icons/common/optiver.jpg"
 import fidelity from "./assets/img/icons/common/Fidelity.jpg";
 import review from "./assets/img/icons/common/Review.jpg";
 import alois from "./assets/img/icons/common/Alois.jpg";
@@ -118,6 +119,32 @@ export const SkillBars = [
 ];
 
 export const experience = [
+  {
+    role: "Quantitative Research Intern",
+    company: "Citadel Securities",
+    companylogo: citsec,
+    color: "#002856 ",
+		date: "June 2021 – August 2021",
+		desc: "Developed machine learning algorithm to recommend a suite of Fidelity apps based on customer interaction data and augmented the Fidelity market quote UI/UX",
+		descBullets: [
+			"Trained K-means clustering algorithm using scikit learn, designed mySQL database, wrote bash script to upload CSV data to SQL server, built Flask API to access model from Fidelity website, and developed project homepage using HTML and Bootstrap  ",
+			"Developed new short interest data components using Angular, Javascript, and CSS",
+		],
+		link: "https://www.fidelity.com/"
+  },
+  {
+    role: "Software Engineering Intern",
+    company: "Optiver",
+    companylogo: optiver,
+    color: "#FF6600 ",
+		date: "June 2021 – August 2021",
+		desc: "Developed machine learning algorithm to recommend a suite of Fidelity apps based on customer interaction data and augmented the Fidelity market quote UI/UX",
+		descBullets: [
+			"Trained K-means clustering algorithm using scikit learn, designed mySQL database, wrote bash script to upload CSV data to SQL server, built Flask API to access model from Fidelity website, and developed project homepage using HTML and Bootstrap  ",
+			"Developed new short interest data components using Angular, Javascript, and CSS",
+		],
+		link: "https://www.fidelity.com/"
+  },
 	{
 		role: "Software Engineering Intern",
 		company: "Fidelity Investments",
